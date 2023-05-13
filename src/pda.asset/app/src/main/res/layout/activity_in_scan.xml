@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    style="@style/ContentView"
+    tools:context=".activity.in.InScanActivity" >
+
+    <include
+        android:id="@+id/cus_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_tool_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_product"
+            style="@style/ScanBannerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="3"
+            android:focusable="true"
+            android:hint="采集"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        layout="@layout/layout_line_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bg_btn_positive_normal_normal4"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        layout="@layout/layout_line_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:visibility="visible"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单号:"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_bill_no"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/cb_just_differ"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            android:text="仅显示差异"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:buttonTint="@color/title_bar"
+            android:gravity="center_vertical"
+            android:textSize="16sp">
+        </CheckBox>
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        layout="@layout/layout_line_horizontal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:divider="@android:color/holo_blue_dark"
+        android:dividerHeight="2dp" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        layout="@layout/layout_line_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="visible"
+        android:background="@color/light_grey4"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_summary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:layout_marginRight="1dp"
+            android:text="@string/inventory_qty"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        layout="@layout/layout_line_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="2dp"
+        android:visibility="visible"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_upload"
+            style="@style/PositiveNormalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:text="上传"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btn_reset"
+            style="@style/PositiveNormalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:text="重置"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btn_previsous"
+            style="@style/PositiveNormalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:text="上一页"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/PositiveNormalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:text="下一页"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>
+

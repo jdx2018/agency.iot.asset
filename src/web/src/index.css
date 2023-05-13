@@ -1,0 +1,173 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  height: 100%;
+}
+
+.center-up-and-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m50-up-and-down {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb:horizontal {
+  /*水平滚动条的样式*/
+  width: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  /*垂直滚动条的样式*/
+  width: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #fff; /*滚动条的背景颜色*/
+  -webkit-border-radius: 0; /*滚动条的圆角宽度*/
+  border-radius: 0;
+}
+::-webkit-scrollbar {
+  width: 6px; /*滚动条的宽度*/
+  height: 6px; /*滚动条的高度*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /*滚动条的hover样式*/
+  height: 50px;
+  background-color: #9f9f9f;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/*icon样式*/
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.bg-f7f8fa {
+  background-color: #f7f8fa;
+}
+
+.MuiListItem-root.Mui-selected,
+.MuiListItem-root.Mui-selected:hover {
+  background-color: #283147 !important;
+  border-right: 4px solid #00bcd4;
+}
+
+.MuiDialogContentText-root {
+  margin-bottom: 0px !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #fafdff !important;
+}
+
+.ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background-color: rgba(0,188,212, 0.85)!important;
+  color: #fff!important;
+  font-weight: 600;
+}
+.ant-table-tbody > tr > td {
+  border: none!important
+}
+
+.ant-select-tree .ant-select-tree-node-content-wrapper.ant-select-tree-node-selected {
+  background-color: #00bcd4!important;
+  color: white!important;
+  font-weight: 600!important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: #00bcd4!important;
+  color: white!important;
+  font-weight: 600!important;
+}
+
+.ant-menu-submenu > .ant-menu-submenu-title .ant-menu-submenu-arrow::before {
+  content: '';
+  position: absolute;
+  background: unset !important;
+  background-image: unset !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-style: solid;
+  border-width: 6px 0 6px 6px;
+  border-color: #b3bed5 transparent transparent transparent;
+  transition: transform 0.3s ease-in-out !important;
+  transform: rotate(45deg) !important;
+  border-radius: 0 !important;
+  left: 0;
+  top: 50%;
+}
+
+.ant-menu-submenu-open > .ant-menu-submenu-title .ant-menu-submenu-arrow::before {
+  content: '';
+  position: absolute;
+  background: unset !important;
+  background-image: unset !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-style: solid;
+  border-width: 6px 0 6px 6px;
+  border-color: #b3bed5 transparent transparent transparent;
+  transition: transform 0.3s ease-in-out !important;
+  transform: rotate(-45deg) !important;
+  border-radius: 0 !important;
+  left: 0;
+  top: 50%;
+}
+
+.ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow::after {
+  content: none !important;
+}
+
+.ant-menu-sub {
+  background-color: #2F3B55!important;
+  color: #b3bed5!important
+}
+
+.ant-menu-item-selected {
+  background-color: #283147!important;
+}
+
+.ant-menu-item:active {
+  background-color:  #283147!important;
+}
+
+.ant-menu-submenu-title:active {
+  background-color: unset!important;
+}
+
+.ant-form-item {
+  margin-right: 0!important;
+}
+
+.ant-modal-header {
+  background-color: #00bcd4!important;
+}

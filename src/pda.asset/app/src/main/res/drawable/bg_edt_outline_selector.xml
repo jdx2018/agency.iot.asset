@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 描边输入框样式 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_edt_common"/>
+            <corners
+                android:radius="@dimen/edt_common_corner_width"/>
+            <stroke
+                android:width="@dimen/edt_common_border"
+                android:color="@color/bd_edt_common"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_custom_dialog"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tv_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_gravity="left"
+        android:background="@color/light_grey5"
+        android:text="请选择：" />
+
+    <!--<ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:divider="@color/light_grey2"
+        android:dividerHeight="1dip"
+        android:listSelector="#00000000"/>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="2dp"
+        android:divider="@android:color/holo_blue_dark"
+        android:dividerHeight="2dp" />
+</LinearLayout>

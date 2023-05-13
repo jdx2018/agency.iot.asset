@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="140dp"
+    android:layout_marginTop="0dp"
+    android:background="#fff"  >
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_deli"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="#ffd060"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_prompt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="系统提示"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ProgressBar
+            android:id="@+id/pro_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:indeterminateDrawable="@drawable/rotate_loading_360"
+            android:indeterminateDuration="1800"
+            />
+
+        <TextView
+            android:id="@+id/tv_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:text="正在进行中，请稍后..."
+            android:textColor="#902909" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

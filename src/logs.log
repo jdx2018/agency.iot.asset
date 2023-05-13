@@ -1,0 +1,2589 @@
+[2021-01-14T08:51:23.756] [DEBUG] default - api/pda/login/request
+[2021-01-14T08:51:23.758] [DEBUG] default - {
+  signature: 'e8ddd75f854bf433bc4058599c9a880e',
+  body: { userId: '394sGNZOPK51101EAXX900K3900243' }
+}
+[2021-01-14T09:19:52.586] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.587] [DEBUG] default - {
+  signature: 'e96acb198c7798101ebb8eac7af5f7ce',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'xg2QrqCY7TaI51-XAAFe' }
+}
+[2021-01-14T09:19:52.590] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.591] [DEBUG] default - {
+  signature: '5d0933d91abb24c534967da79e30dc52',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '6UOwmM1RGgNCE5SIAAFf' }
+}
+[2021-01-14T09:19:52.593] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.593] [DEBUG] default - {
+  signature: 'e441a33a89109ead4bcdd45a1f01a81a',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'Xdw9epkQG4sCPAaHAAFg' }
+}
+[2021-01-14T09:19:52.603] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.603] [DEBUG] default - {
+  signature: '8407ff0c5ff4d84647e3135deab71949',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'xg2QrqCY7TaI51-XAAFe'
+  }
+}
+[2021-01-14T09:19:52.606] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.608] [DEBUG] default - {
+  signature: '7aa60b89b1e8ca73ca78d9759d0defa5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: '6UOwmM1RGgNCE5SIAAFf'
+  }
+}
+[2021-01-14T09:19:52.611] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.611] [DEBUG] default - {
+  signature: '2469b0034c3df01cdb1613252b3c98ee',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'Xdw9epkQG4sCPAaHAAFg'
+  }
+}
+[2021-01-14T09:19:52.819] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.819] [DEBUG] default - {
+  signature: 'c0dfde7d608a913429a91ff7b8c0e0fc',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'OkMeu1AubA8mpLh1AAFh' }
+}
+[2021-01-14T09:19:52.828] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.828] [DEBUG] default - {
+  signature: 'f1f4612475209d5e4546e913073e7483',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'iWXkv8n7n1cN2DSyAAFi' }
+}
+[2021-01-14T09:19:52.833] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.833] [DEBUG] default - {
+  signature: '404bd850e07ada1890cbbb0997ca9a36',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'OkMeu1AubA8mpLh1AAFh'
+  }
+}
+[2021-01-14T09:19:52.849] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.849] [DEBUG] default - {
+  signature: 'a143170b5b567941ffe7969c9e6c7d7c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'CgQkddWQQhLpuKlHAAFj' }
+}
+[2021-01-14T09:19:52.850] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.850] [DEBUG] default - {
+  signature: '8d37c9285a65e8502fdd548abee02cb0',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'iWXkv8n7n1cN2DSyAAFi'
+  }
+}
+[2021-01-14T09:19:52.864] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.864] [DEBUG] default - {
+  signature: '6bbb6d9bd37597a7b6c38f732e80c55c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'CgQkddWQQhLpuKlHAAFj'
+  }
+}
+[2021-01-14T09:19:52.885] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.885] [DEBUG] default - {
+  signature: 'a91dea1561454f65d9b318e035133eae',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'Znd8TwMejo9nbw8YAAFk' }
+}
+[2021-01-14T09:19:52.911] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.911] [DEBUG] default - {
+  signature: '945bae5f7d2b959ae140e8f34fbe8e3f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'Znd8TwMejo9nbw8YAAFk'
+  }
+}
+[2021-01-14T09:19:52.915] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.916] [DEBUG] default - {
+  signature: '0901d6d61aa29b51317171896d0341e0',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '6K5Y9CG5gXE3vngEAAFl' }
+}
+[2021-01-14T09:19:52.918] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.918] [DEBUG] default - {
+  signature: 'e00b8bf92ead886bfa9d9cf5100cc083',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'MgIwkb1KDDTnvb_lAAFm' }
+}
+[2021-01-14T09:19:52.921] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.921] [DEBUG] default - {
+  signature: 'd2e390098e34f5774eb66a4ecb3bd848',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: '6K5Y9CG5gXE3vngEAAFl'
+  }
+}
+[2021-01-14T09:19:52.925] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:19:52.926] [DEBUG] default - {
+  signature: '4d5c671c93c338110a9f8ae5b406b9aa',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'MgIwkb1KDDTnvb_lAAFm'
+  }
+}
+[2021-01-14T09:19:52.978] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:19:52.978] [DEBUG] default - {
+  signature: '6b88a477e78e26c933a3cae9defd0d55',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'OH1v_zPgQpRQl086AAFn' }
+}
+[2021-01-14T09:19:52.986] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:19:52.986] [DEBUG] default - {
+  signature: '7c1c6c221f6e19b3889583a75bda62be',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: 'OH1v_zPgQpRQl086AAFn'
+  }
+}
+[2021-01-14T09:24:05.930] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:24:05.933] [DEBUG] default - {
+  signature: '044f8916cb4dd5de613641ac4144c228',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'wqmTlCQSsvQjDcoLAAFo' }
+}
+[2021-01-14T09:24:05.961] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:24:05.962] [DEBUG] default - {
+  signature: 'eb73fbd94262ceaea29818507c21cf8e',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'wqmTlCQSsvQjDcoLAAFo'
+  }
+}
+[2021-01-14T09:25:09.524] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:25:09.524] [DEBUG] default - {
+  signature: '0278637c71addd3558b2553a80672dc5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'vdXqVaEVUqOcOecLAAFp' }
+}
+[2021-01-14T09:25:09.539] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:25:09.539] [DEBUG] default - {
+  signature: 'b898f55f522ff72ab0b52af3bd2a4336',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'vdXqVaEVUqOcOecLAAFp'
+  }
+}
+[2021-01-14T09:25:09.738] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:25:09.738] [DEBUG] default - {
+  signature: '33303375469179e5db431ac14e33d6b2',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'eDf53p2-iVwhB82wAAFq' }
+}
+[2021-01-14T09:25:09.746] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:25:09.746] [DEBUG] default - {
+  signature: '8459c9bca978a0f3351a0aaabeac0f8f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'eDf53p2-iVwhB82wAAFq'
+  }
+}
+[2021-01-14T09:25:09.768] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:25:09.768] [DEBUG] default - {
+  signature: '3245fe15bd9d3214cf7ba7924b31d186',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '_gBlIhWhybSr1ZSwAAFr' }
+}
+[2021-01-14T09:25:09.776] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:25:09.776] [DEBUG] default - {
+  signature: '1557d9bb96b9d63f98c0e088012e0e86',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: '_gBlIhWhybSr1ZSwAAFr'
+  }
+}
+[2021-01-14T09:25:09.799] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:25:09.799] [DEBUG] default - {
+  signature: '7e7ff93549ff6680d73dbc3469eb4e4a',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'ZZENW9FlrcwXAWrgAAFs' }
+}
+[2021-01-14T09:25:09.815] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:25:09.815] [DEBUG] default - {
+  signature: 'b616f3dd1a5ac9b425a5885c957dd47f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'ZZENW9FlrcwXAWrgAAFs'
+  }
+}
+[2021-01-14T09:25:09.854] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:25:09.854] [DEBUG] default - {
+  signature: 'd850ccc17c37485a7bc709ae8a9001ea',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'nj4eInGVAg2Mz-PVAAFt' }
+}
+[2021-01-14T09:25:09.859] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:25:09.859] [DEBUG] default - {
+  signature: '0c30df1921f5232e91d09c7326cba092',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'nj4eInGVAg2Mz-PVAAFt'
+  }
+}
+[2021-01-14T09:25:09.900] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:25:09.900] [DEBUG] default - {
+  signature: 'ad99844ecd1ce6913617a986458ccc7f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '1nn_0Bg0PUqMRKO_AAFu' }
+}
+[2021-01-14T09:25:09.906] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:25:09.907] [DEBUG] default - {
+  signature: '74a559256282894a2ffdf6de3d934797',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: '1nn_0Bg0PUqMRKO_AAFu'
+  }
+}
+[2021-01-14T09:26:08.179] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:26:08.180] [DEBUG] default - {
+  signature: '68453f2ee7abf066557b5351be2f2879',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'aNKiALtLOXaVk91XAAFv' }
+}
+[2021-01-14T09:26:08.188] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:26:08.188] [DEBUG] default - {
+  signature: '5d9ce18ef069103252fc1a482370d557',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: 'aNKiALtLOXaVk91XAAFv'
+  }
+}
+[2021-01-14T09:28:07.239] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:28:07.242] [DEBUG] default - {
+  signature: 'b8b36e573633380b4d0c4f2ca7f0e65d',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'ebtuNASSBvZO2u68AAFw' }
+}
+[2021-01-14T09:28:07.261] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:28:07.261] [DEBUG] default - {
+  signature: '4d56cc81a50340aac41209272926f026',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'ebtuNASSBvZO2u68AAFw'
+  }
+}
+[2021-01-14T09:28:37.401] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:28:37.401] [DEBUG] default - {
+  signature: '2c734f162e2c61db1c827ab8f47f7f65',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'HgwaSlw-bbxCzWf2AAFx' }
+}
+[2021-01-14T09:28:37.415] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:28:37.416] [DEBUG] default - {
+  signature: '2801f7990d758d31cdbe83f7f31088a8',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'HgwaSlw-bbxCzWf2AAFx'
+  }
+}
+[2021-01-14T09:29:49.112] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:29:49.113] [DEBUG] default - {
+  signature: 'd1609fb11754113d6ed45595cabc509c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'mR4fEPZv-eN9wP4bAAFy' }
+}
+[2021-01-14T09:29:49.132] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:29:49.132] [DEBUG] default - {
+  signature: 'c5cd5edf1c4ec9615c897e8f649cb6dd',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'mR4fEPZv-eN9wP4bAAFy'
+  }
+}
+[2021-01-14T09:30:15.965] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:30:15.965] [DEBUG] default - {
+  signature: 'b1d4c38ddf2baeb48df55d3091f3c0fc',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'JZGLHXfmKmYk7Ix_AAFz' }
+}
+[2021-01-14T09:30:15.973] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:30:15.973] [DEBUG] default - {
+  signature: 'c4501b8cc0cccb376cb909aa9f69da01',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'JZGLHXfmKmYk7Ix_AAFz'
+  }
+}
+[2021-01-14T09:30:16.141] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:30:16.141] [DEBUG] default - {
+  signature: '504c2a9af4fd716e7988714bce82649a',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'DLwihkOfF4jRyEM3AAF0' }
+}
+[2021-01-14T09:30:16.146] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:30:16.147] [DEBUG] default - {
+  signature: 'f6977392f3c57964d760882d3ed145db',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'DLwihkOfF4jRyEM3AAF0'
+  }
+}
+[2021-01-14T09:30:16.170] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:30:16.170] [DEBUG] default - {
+  signature: 'b6fa8299f64460f878df0cd6c6d15c89',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'vXdyz8VMoQj0Ki-nAAF1' }
+}
+[2021-01-14T09:30:16.176] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:30:16.176] [DEBUG] default - {
+  signature: '9daa9642fe7379db6c8f3d639fb16c9e',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'vXdyz8VMoQj0Ki-nAAF1'
+  }
+}
+[2021-01-14T09:30:16.199] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:30:16.199] [DEBUG] default - {
+  signature: '0d6d22bec9d5144fa08899c760bee4ba',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'p6HQATOvN34kenjnAAF2' }
+}
+[2021-01-14T09:30:16.205] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:30:16.205] [DEBUG] default - {
+  signature: 'cebfe2e7b16f904b6b2aa091d2633a35',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'p6HQATOvN34kenjnAAF2'
+  }
+}
+[2021-01-14T09:30:16.246] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:30:16.246] [DEBUG] default - {
+  signature: '22f9cd5c6da6745d6b136b06d140823c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'j5lH4ZvUX4hsNT9mAAF3' }
+}
+[2021-01-14T09:30:16.251] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:30:16.251] [DEBUG] default - {
+  signature: 'e3fbd9b36345242d4feb83e8867a3163',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'j5lH4ZvUX4hsNT9mAAF3'
+  }
+}
+[2021-01-14T09:30:16.291] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:30:16.291] [DEBUG] default - {
+  signature: '2c6617c40d4ac3f33986aa4ceb9e2705',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'KS-wVyLXaxAAmQBtAAF4' }
+}
+[2021-01-14T09:30:16.298] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:30:16.298] [DEBUG] default - {
+  signature: '1cb40ab09172a93990f6ad2017b532a9',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'KS-wVyLXaxAAmQBtAAF4'
+  }
+}
+[2021-01-14T09:30:40.510] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:30:40.510] [DEBUG] default - {
+  signature: 'c1f04b35f7cd868040eccd1fcea32e79',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'wDmJWbJhTZ-7eMeaAAF5' }
+}
+[2021-01-14T09:30:40.517] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:30:40.517] [DEBUG] default - {
+  signature: 'a7f3979d76335f2fc25422d23e33e7fb',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'wDmJWbJhTZ-7eMeaAAF5'
+  }
+}
+[2021-01-14T09:31:04.784] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:31:04.784] [DEBUG] default - {
+  signature: 'd968374521f1b0526228bae4a99a6933',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '23lQQoc0rjhzZrBOAAF6' }
+}
+[2021-01-14T09:31:04.801] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:31:04.801] [DEBUG] default - {
+  signature: '9f5ab75b42b1b668dd5e2c95b8828cc6',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: '23lQQoc0rjhzZrBOAAF6'
+  }
+}
+[2021-01-14T09:31:09.847] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:31:09.848] [DEBUG] default - {
+  signature: 'cc2613cee39d9beac3ac7fdb4e76b351',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'oVTclyibsHQRcJ6oAAF7' }
+}
+[2021-01-14T09:31:09.857] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:31:09.857] [DEBUG] default - {
+  signature: '37a722ea15e48da3153cd8c3a83f5b2b',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'oVTclyibsHQRcJ6oAAF7'
+  }
+}
+[2021-01-14T09:31:31.509] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:31:31.509] [DEBUG] default - {
+  signature: '8a3d747b557bb089aee4de9e2b4403f0',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'RS1DZa519O3d9vXWAAF8' }
+}
+[2021-01-14T09:31:31.515] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:31:31.515] [DEBUG] default - {
+  signature: '4c9c2b9d9ae7f63af578f1227eb857d9',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'RS1DZa519O3d9vXWAAF8'
+  }
+}
+[2021-01-14T09:32:03.640] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:32:03.641] [DEBUG] default - {
+  signature: '0c9d35d948724d5f746f19218f287c29',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'wikt0WjJBjPCnvNFAAF9' }
+}
+[2021-01-14T09:32:03.647] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:32:03.648] [DEBUG] default - {
+  signature: '7de219c5f1edb328fb36f18374c5ef3f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'wikt0WjJBjPCnvNFAAF9'
+  }
+}
+[2021-01-14T09:32:08.241] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:32:08.241] [DEBUG] default - {
+  signature: '6341450f59e91ccda26abf7bbfc3a2bd',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '_-xQw7XNKYnOhBVIAAF-' }
+}
+[2021-01-14T09:32:08.249] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:32:08.250] [DEBUG] default - {
+  signature: 'd6b658fabd47ac8f8aa6950a2601fbce',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: '_-xQw7XNKYnOhBVIAAF-'
+  }
+}
+[2021-01-14T09:32:27.477] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:32:27.477] [DEBUG] default - {
+  signature: '2fc1d2648df5224ace230ad5a93c8b79',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '-FAn71GIZ15cUm6vAAF_' }
+}
+[2021-01-14T09:32:27.484] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:32:27.484] [DEBUG] default - {
+  signature: '3b2138e42950b4e6e276dea371c1b1f3',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: '-FAn71GIZ15cUm6vAAF_'
+  }
+}
+[2021-01-14T09:34:08.595] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:34:08.595] [DEBUG] default - {
+  signature: '10ef908a93d68559d9d1686175a205f8',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'BZ9i7uwBU1bPxVTLAAGA' }
+}
+[2021-01-14T09:34:08.605] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:34:08.605] [DEBUG] default - {
+  signature: 'da0d596f86ac4d7c930d60e5e5627115',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'BZ9i7uwBU1bPxVTLAAGA'
+  }
+}
+[2021-01-14T09:34:11.862] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:34:11.862] [DEBUG] default - {
+  signature: '90dea8703d7665c59d005193ccc8652b',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '2bbEQ-DtZYMNF3MPAAGB' }
+}
+[2021-01-14T09:34:11.869] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:34:11.870] [DEBUG] default - {
+  signature: '99d4b366d505dd2872324944b58a9e78',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: '2bbEQ-DtZYMNF3MPAAGB'
+  }
+}
+[2021-01-14T09:35:41.967] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:35:41.967] [DEBUG] default - {
+  signature: 'dd6e0acab1c563c887dd5655a46d9cea',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'mzaGLQzlz5Qo8RacAAGC' }
+}
+[2021-01-14T09:35:41.978] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:35:41.978] [DEBUG] default - {
+  signature: '82560c8da70f7e3fa963ae88da614706',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'mzaGLQzlz5Qo8RacAAGC'
+  }
+}
+[2021-01-14T09:35:42.112] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:35:42.112] [DEBUG] default - {
+  signature: '22ca14376c4ccc44bc2853ecd17e897f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'sZvonR81IHdHLZsAAAGD' }
+}
+[2021-01-14T09:35:42.119] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:35:42.119] [DEBUG] default - {
+  signature: 'c4fb179afeb331db02b338b8e31290d2',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'sZvonR81IHdHLZsAAAGD'
+  }
+}
+[2021-01-14T09:35:42.141] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:35:42.141] [DEBUG] default - {
+  signature: 'f51e63eda7471abc0834405fffeeb15a',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'LgZH1rvsc8zL5eVZAAGE' }
+}
+[2021-01-14T09:35:42.150] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:35:42.151] [DEBUG] default - {
+  signature: 'ed428d70c1052b0841c8bb7a81b30e61',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'LgZH1rvsc8zL5eVZAAGE'
+  }
+}
+[2021-01-14T09:35:42.174] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:35:42.174] [DEBUG] default - {
+  signature: 'bb19f41c200c6fba58bf1a9617c9c771',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'dKiV5QQRFS2UiUfAAAGF' }
+}
+[2021-01-14T09:35:42.183] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:35:42.183] [DEBUG] default - {
+  signature: '16cf9ec7843ec5822898290ba198dc08',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'dKiV5QQRFS2UiUfAAAGF'
+  }
+}
+[2021-01-14T09:35:42.232] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:35:42.232] [DEBUG] default - {
+  signature: 'bcf651824a406e09395a6758ada81416',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '64yuqimUZivyBqDdAAGG' }
+}
+[2021-01-14T09:35:42.237] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T09:35:42.237] [DEBUG] default - {
+  signature: '7f14777a972a54bdec5d8315a3345425',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: '64yuqimUZivyBqDdAAGG'
+  }
+}
+[2021-01-14T09:35:42.279] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:35:42.279] [DEBUG] default - {
+  signature: 'a40440e8277c0032b0034f28722e4392',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'lFVFqabE6qLGiCVxAAGH' }
+}
+[2021-01-14T09:35:42.284] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:35:42.285] [DEBUG] default - {
+  signature: 'e8deb2c2aeefbe140f613d980fddfbfd',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: 'lFVFqabE6qLGiCVxAAGH'
+  }
+}
+[2021-01-14T09:35:45.247] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:35:45.248] [DEBUG] default - {
+  signature: '472e6403e9095fc8e9c9e0bd86e551bb',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '-_Tyxxv2vKVQITEvAAGI' }
+}
+[2021-01-14T09:35:45.255] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:35:45.255] [DEBUG] default - {
+  signature: '8a7b00d264ffb2eb022ee125d0f2ed9f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: [Object],
+      fields: [Object]
+    },
+    id: '-_Tyxxv2vKVQITEvAAGI'
+  }
+}
+[2021-01-14T09:36:00.666] [DEBUG] default - db/getConnection/request
+[2021-01-14T09:36:00.667] [DEBUG] default - {
+  signature: '89e41ff05bc2b8aa04c81f33b632510d',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'avAK5qgegCP8Erf_AAGJ' }
+}
+[2021-01-14T09:36:00.673] [DEBUG] default - db/executeProc/request
+[2021-01-14T09:36:00.673] [DEBUG] default - {
+  signature: '779b4d95d1bdebe6f6da2e98d9b38c8b',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: 'avAK5qgegCP8Erf_AAGJ'
+  }
+}
+[2021-01-14T11:43:09.842] [DEBUG] default - db/getConnection/request
+[2021-01-14T11:43:09.845] [DEBUG] default - {
+  signature: '413c10656b97df4b1a53e5cac3a03aaf',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'BLiaIJxYIHyvuXyWAAGK' }
+}
+[2021-01-14T11:43:09.863] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T11:43:09.863] [DEBUG] default - {
+  signature: 'c107288cf2593ec8f615fca646dd766c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'BLiaIJxYIHyvuXyWAAGK'
+  }
+}
+[2021-01-14T11:43:10.072] [DEBUG] default - db/getConnection/request
+[2021-01-14T11:43:10.072] [DEBUG] default - {
+  signature: '940f1e75691aa3476eeddcfeb5b77673',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'tj16hSdu9y8vNgeqAAGL' }
+}
+[2021-01-14T11:43:10.078] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T11:43:10.078] [DEBUG] default - {
+  signature: '8382d86873afe2e0e8beabf5280ba46e',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'tj16hSdu9y8vNgeqAAGL'
+  }
+}
+[2021-01-14T11:43:10.128] [DEBUG] default - db/getConnection/request
+[2021-01-14T11:43:10.128] [DEBUG] default - {
+  signature: '0bc3e7029ffbdce0aa54d799d5ece19a',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '2BtU6EFTAA2T-yKCAAGM' }
+}
+[2021-01-14T11:43:10.133] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T11:43:10.134] [DEBUG] default - {
+  signature: 'dc60f21b56e5b30a92357a8d4a9620df',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: '2BtU6EFTAA2T-yKCAAGM'
+  }
+}
+[2021-01-14T11:43:10.160] [DEBUG] default - db/getConnection/request
+[2021-01-14T11:43:10.161] [DEBUG] default - {
+  signature: 'a0454808e791e7db4fb725283f0e556d',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'IK2pJKthAWoyxKJuAAGN' }
+}
+[2021-01-14T11:43:10.172] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T11:43:10.173] [DEBUG] default - {
+  signature: 'f0ddcf6740422b4e024e63349ea08de4',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'IK2pJKthAWoyxKJuAAGN'
+  }
+}
+[2021-01-14T11:43:10.223] [DEBUG] default - db/getConnection/request
+[2021-01-14T11:43:10.223] [DEBUG] default - {
+  signature: '20fe84a53d8942c8b801b48020fdd6c8',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'qbwM9I2U63dXNfU5AAGO' }
+}
+[2021-01-14T11:43:10.234] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T11:43:10.234] [DEBUG] default - {
+  signature: 'c63abc89e7517f7f69b8baee9610303d',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'qbwM9I2U63dXNfU5AAGO'
+  }
+}
+[2021-01-14T11:43:10.273] [DEBUG] default - db/getConnection/request
+[2021-01-14T11:43:10.273] [DEBUG] default - {
+  signature: 'b3ce982937defe5e44bdb4a1375b335b',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'SYJIRDU828HVmzCfAAGP' }
+}
+[2021-01-14T11:43:10.279] [DEBUG] default - db/executeProc/request
+[2021-01-14T11:43:10.280] [DEBUG] default - {
+  signature: '94dff1bf3635d3f213b91614f2d2ed4b',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: 'SYJIRDU828HVmzCfAAGP'
+  }
+}
+[2021-01-14T11:43:44.501] [DEBUG] default - db/getConnection/request
+[2021-01-14T11:43:44.504] [DEBUG] default - {
+  signature: '34ca1a992abbde5c3aa8db80798a57fd',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'OyfNetg7tDLFEiM4AAGQ' }
+}
+[2021-01-14T11:43:44.526] [DEBUG] default - db/executeProc/request
+[2021-01-14T11:43:44.526] [DEBUG] default - {
+  signature: '6a6e8f3d1976167ab4e60d8ad8a2a2ff',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: 'OyfNetg7tDLFEiM4AAGQ'
+  }
+}
+[2021-01-14T14:51:31.665] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:31.668] [DEBUG] default - {
+  signature: '99ff08d252cbd90b3be0227660094388',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'Fetul9pVxs0x5ihXAAGR' }
+}
+[2021-01-14T14:51:31.686] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:51:31.686] [DEBUG] default - {
+  signature: '9ba972044205549e7995fdaf1eeb4a72',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'Fetul9pVxs0x5ihXAAGR'
+  }
+}
+[2021-01-14T14:51:32.023] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:32.024] [DEBUG] default - {
+  signature: '92cb7e4702299c9f186d26f416edc657',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'LgxBJAV6sA01FE0fAAGS' }
+}
+[2021-01-14T14:51:32.037] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:32.038] [DEBUG] default - {
+  signature: '21eb2621d4efe8b956b78802b89a711e',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'UIoMkbXTISkVWBttAAGT' }
+}
+[2021-01-14T14:51:32.045] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:51:32.045] [DEBUG] default - {
+  signature: '130ece00b6571c0130200f01f934e40c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'LgxBJAV6sA01FE0fAAGS'
+  }
+}
+[2021-01-14T14:51:32.056] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:51:32.057] [DEBUG] default - {
+  signature: '0e1b106f5ed91e9c58eb7160b7ca232d',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'UIoMkbXTISkVWBttAAGT'
+  }
+}
+[2021-01-14T14:51:32.381] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:32.382] [DEBUG] default - {
+  signature: '7d0ad20fffdfeb075408dc0302da50f4',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'rBZgWLrX3HvtdYbhAAGU' }
+}
+[2021-01-14T14:51:32.389] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:51:32.390] [DEBUG] default - {
+  signature: '68713b86324976a4a06b091c24e7e44c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'rBZgWLrX3HvtdYbhAAGU'
+  }
+}
+[2021-01-14T14:51:32.413] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:32.414] [DEBUG] default - {
+  signature: '5911c95d258cca6e0293667d0dc1a854',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'xoIgTN1rFnTWIRQjAAGV' }
+}
+[2021-01-14T14:51:32.423] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:51:32.423] [DEBUG] default - {
+  signature: 'f4d6376f9dc26e9bb6131f816cd2298f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'xoIgTN1rFnTWIRQjAAGV'
+  }
+}
+[2021-01-14T14:51:32.475] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:32.475] [DEBUG] default - {
+  signature: '6911d40a8ec106d94b3365fa2560fb0b',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '-VByyyoHK-il9gR_AAGW' }
+}
+[2021-01-14T14:51:32.489] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:51:32.489] [DEBUG] default - {
+  signature: '6312a0bf9215d4c68b31eeaacba8f46a',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: '-VByyyoHK-il9gR_AAGW'
+  }
+}
+[2021-01-14T14:51:32.537] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:32.537] [DEBUG] default - {
+  signature: 'c7732c8cd640d7dadab321db1ed95122',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '6FXAc5BvKS8pcNpIAAGX' }
+}
+[2021-01-14T14:51:32.551] [DEBUG] default - db/executeProc/request
+[2021-01-14T14:51:32.551] [DEBUG] default - {
+  signature: '54a06a8e3a028b1d86bc839bed25c9c5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: '6FXAc5BvKS8pcNpIAAGX'
+  }
+}
+[2021-01-14T14:51:35.524] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:35.524] [DEBUG] default - {
+  signature: '72ef12e2990814f7b918f56970fa242e',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'bpeA7r7G36d7Bi1HAAGY' }
+}
+[2021-01-14T14:51:35.528] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:51:35.528] [DEBUG] default - {
+  signature: 'b70c80f1ade4ec8b43879504b1978d2c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'VA-PRZJkJu1bXqmdAAGZ' }
+}
+[2021-01-14T14:51:35.541] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:51:35.541] [DEBUG] default - {
+  signature: '80f8abf7b9f28ce098e84087eb96a4f5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_device',
+    query: { tenantId: 'szumale' },
+    fields: {
+      status: 1,
+      deviceId: 1,
+      deviceName: 1,
+      placeName: 1,
+      deviceType: 1,
+      groupName: 1,
+      ownOrgName: 1,
+      model: 1,
+      version: 1,
+      remarks: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'bpeA7r7G36d7Bi1HAAGY'
+  }
+}
+[2021-01-14T14:51:35.544] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:51:35.544] [DEBUG] default - {
+  signature: '9151dbe1f0d8a98c0af5c267a6bac186',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_device',
+    query: { tenantId: 'szumale' },
+    fields: {
+      status: 1,
+      deviceId: 1,
+      deviceName: 1,
+      placeName: 1,
+      deviceType: 1,
+      groupName: 1,
+      ownOrgName: 1,
+      model: 1,
+      version: 1,
+      remarks: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'VA-PRZJkJu1bXqmdAAGZ'
+  }
+}
+[2021-01-14T14:59:12.175] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.176] [DEBUG] default - {
+  signature: '55bbb9165838e91f60e91a88c0b2c64d',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '32HQZzn9nIhC-MA-AAGa' }
+}
+[2021-01-14T14:59:12.178] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.178] [DEBUG] default - {
+  signature: '7410a05f359e07b4027c99ee10e217e5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'TiQW0PDy2j43smbzAAGb' }
+}
+[2021-01-14T14:59:12.184] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.184] [DEBUG] default - {
+  signature: 'fa718faa556a9c9a069f58fdfaca1090',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'X6dLdgEXHmTx0Jt4AAGc' }
+}
+[2021-01-14T14:59:12.195] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.195] [DEBUG] default - {
+  signature: '75a8c363b1c207ef6a12c7ceb4928c0e',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: '32HQZzn9nIhC-MA-AAGa'
+  }
+}
+[2021-01-14T14:59:12.199] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.199] [DEBUG] default - {
+  signature: '3027914183dbe95baff40c0fb19b47e1',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'TiQW0PDy2j43smbzAAGb'
+  }
+}
+[2021-01-14T14:59:12.313] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.313] [DEBUG] default - {
+  signature: '66a0327fdab42a040955da3dd0635fdc',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'X6dLdgEXHmTx0Jt4AAGc'
+  }
+}
+[2021-01-14T14:59:12.409] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.409] [DEBUG] default - {
+  signature: 'e00f0c92a691260c48cb0144302a2978',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'x-Tx0zjFzxXWyfa7AAGd' }
+}
+[2021-01-14T14:59:12.412] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.412] [DEBUG] default - {
+  signature: 'd2a2acaf9d6253ff8e48655b8a6e4ed3',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'kyMbwkOXMH8HgGCvAAGe' }
+}
+[2021-01-14T14:59:12.418] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.418] [DEBUG] default - {
+  signature: '65335c2e33199cd1c41eaac165b9abdd',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'x-Tx0zjFzxXWyfa7AAGd'
+  }
+}
+[2021-01-14T14:59:12.421] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.421] [DEBUG] default - {
+  signature: 'b211f4dd407242f650d7944e6ad836c4',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'kyMbwkOXMH8HgGCvAAGe'
+  }
+}
+[2021-01-14T14:59:12.451] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.453] [DEBUG] default - {
+  signature: '4c391b9fada16f4acd81e9642aafc44b',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'zQiNs3ogVfDFYAQEAAGf' }
+}
+[2021-01-14T14:59:12.461] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.461] [DEBUG] default - {
+  signature: '7f717396272b66cab4b6d1e44e51e473',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'zQiNs3ogVfDFYAQEAAGf'
+  }
+}
+[2021-01-14T14:59:12.518] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.518] [DEBUG] default - {
+  signature: 'f8f12d6b4aea4b46653252db8bc9eb71',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'JCmhww30Klh0rbSmAAGg' }
+}
+[2021-01-14T14:59:12.522] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.522] [DEBUG] default - {
+  signature: 'cd10b3b996c0ac87b162ef1bdae27d9f',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '8v-feBpE-07bnrZLAAGh' }
+}
+[2021-01-14T14:59:12.524] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.525] [DEBUG] default - {
+  signature: '64618c84d1db64c99ae82b26ad3be9fd',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'JCmhww30Klh0rbSmAAGg'
+  }
+}
+[2021-01-14T14:59:12.528] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.528] [DEBUG] default - {
+  signature: 'bde37af927df9691219d71590e9ee576',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'j1pFkezUVuHHZFRSAAGi' }
+}
+[2021-01-14T14:59:12.530] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.530] [DEBUG] default - {
+  signature: 'e2ebd7916737581472da0dad96fc5723',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: '8v-feBpE-07bnrZLAAGh'
+  }
+}
+[2021-01-14T14:59:12.533] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T14:59:12.533] [DEBUG] default - {
+  signature: '8bb23d0721f6feec25799e3f1baf96ea',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'j1pFkezUVuHHZFRSAAGi'
+  }
+}
+[2021-01-14T14:59:12.580] [DEBUG] default - db/getConnection/request
+[2021-01-14T14:59:12.580] [DEBUG] default - {
+  signature: 'be2ee1ed27aec167d4265ae2a857c48e',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'iMeLdycS--FqPRGdAAGj' }
+}
+[2021-01-14T14:59:12.587] [DEBUG] default - db/executeProc/request
+[2021-01-14T14:59:12.588] [DEBUG] default - {
+  signature: '40a86b85ae3aea02ea9eaf03042c66ea',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: 'iMeLdycS--FqPRGdAAGj'
+  }
+}
+[2021-01-14T15:15:30.481] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:30.485] [DEBUG] default - {
+  signature: '3735fdc8d5aed1851cc99413cf237df5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'uoqxb05XsitQLNXBAAGk' }
+}
+[2021-01-14T15:15:30.499] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:30.500] [DEBUG] default - {
+  signature: '4b4455460426d82b71a207dfbd5fbd17',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'E6bet47EAPPq7aa2AAGl' }
+}
+[2021-01-14T15:15:30.504] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:30.504] [DEBUG] default - {
+  signature: '29230132ad4a250772babb1235d654ec',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_supplier',
+    query: { tenantId: 'szumale' },
+    dataContent: null,
+    id: 'uoqxb05XsitQLNXBAAGk'
+  }
+}
+[2021-01-14T15:15:30.510] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:30.510] [DEBUG] default - {
+  signature: '787ee584840d66f2de8015446a1bdd96',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_supplier',
+    query: { tenantId: 'szumale' },
+    dataContent: null,
+    id: 'E6bet47EAPPq7aa2AAGl'
+  }
+}
+[2021-01-14T15:15:30.963] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:30.963] [DEBUG] default - {
+  signature: 'b6b8e7e6c57869c3acf0e4e92e2f9895',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'G7GGesgK4S076jstAAGm' }
+}
+[2021-01-14T15:15:30.968] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:30.968] [DEBUG] default - {
+  signature: '17be9bbbb96d7ca9bc0604b34f676011',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'G7GGesgK4S076jstAAGm'
+  }
+}
+[2021-01-14T15:15:32.742] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:32.742] [DEBUG] default - {
+  signature: 'd4d756cf0ce629558bc92619e7503a9c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'h2qyONNmsHJMjTphAAGn' }
+}
+[2021-01-14T15:15:32.759] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:32.759] [DEBUG] default - {
+  signature: '716b850ddeb701ce6669107d7fcc1c66',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'h2qyONNmsHJMjTphAAGn'
+  }
+}
+[2021-01-14T15:15:32.903] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:32.903] [DEBUG] default - {
+  signature: 'bccb93a0007655c263143e3517b3151c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'A9JLB3jx_7-uklDRAAGo' }
+}
+[2021-01-14T15:15:32.921] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:32.921] [DEBUG] default - {
+  signature: 'bea6ea8d1a160796d4240a5b1cce1e61',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'A9JLB3jx_7-uklDRAAGo'
+  }
+}
+[2021-01-14T15:15:32.951] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:32.951] [DEBUG] default - {
+  signature: '36d28b3b92bb380ae37d117e22bb6eba',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'CIKra3Am3oohiXzdAAGp' }
+}
+[2021-01-14T15:15:32.967] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:32.967] [DEBUG] default - {
+  signature: '8c61bde9692e721df6fca4492820d9d5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'CIKra3Am3oohiXzdAAGp'
+  }
+}
+[2021-01-14T15:15:33.008] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:33.008] [DEBUG] default - {
+  signature: 'caef3b8f45b1e548c2edf81d874cda8c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'mD2eVYxVx70D304UAAGq' }
+}
+[2021-01-14T15:15:33.014] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:33.014] [DEBUG] default - {
+  signature: 'b569316342bbdee0b79aab9a613e8113',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'mD2eVYxVx70D304UAAGq'
+  }
+}
+[2021-01-14T15:15:33.059] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:33.060] [DEBUG] default - {
+  signature: '2a4ae92874a87bf09ccde2a0533cb881',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '1Hlylz2QQbTkuy4hAAGr' }
+}
+[2021-01-14T15:15:33.066] [DEBUG] default - db/executeProc/request
+[2021-01-14T15:15:33.067] [DEBUG] default - {
+  signature: '60e9a4f9c7234add5ec6a6296f6daba2',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: '1Hlylz2QQbTkuy4hAAGr'
+  }
+}
+[2021-01-14T15:15:34.231] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:34.231] [DEBUG] default - {
+  signature: 'fe91f84ef1d29ed3fffaecf854c96f88',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'WrzyDRiQwiI8VHG8AAGs' }
+}
+[2021-01-14T15:15:34.237] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:34.237] [DEBUG] default - {
+  signature: 'd0f120d9952fc4352e6e84cb53e1e0a0',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'WrzyDRiQwiI8VHG8AAGs'
+  }
+}
+[2021-01-14T15:15:38.014] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:38.015] [DEBUG] default - {
+  signature: '909200f0b114fd4ad6da5e3376229ebe',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'A9BnSFxFFekEQyGlAAGt' }
+}
+[2021-01-14T15:15:38.022] [DEBUG] default - db/executeProc/request
+[2021-01-14T15:15:38.022] [DEBUG] default - {
+  signature: 'f658677fe4a23ba40f04ce33ce37f3f5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: 'A9BnSFxFFekEQyGlAAGt'
+  }
+}
+[2021-01-14T15:15:40.260] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:40.260] [DEBUG] default - {
+  signature: '25dca1e02b40e1f23a9ed10027c0b74e',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'G_ltj5W6SFZgt4HJAAGu' }
+}
+[2021-01-14T15:15:40.266] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:40.266] [DEBUG] default - {
+  signature: 'ce564b5f0ee450cca25966383690f50a',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'G_ltj5W6SFZgt4HJAAGu'
+  }
+}
+[2021-01-14T15:15:42.516] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:42.516] [DEBUG] default - {
+  signature: 'b27437c7ea2de44a5d835547795425c1',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'YT7W818BLlr7ClDKAAGv' }
+}
+[2021-01-14T15:15:42.519] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:42.519] [DEBUG] default - {
+  signature: '26177e8199a653150c28d83e9de849e3',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'v9DIEhZW41UhK-7NAAGw' }
+}
+[2021-01-14T15:15:42.522] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:42.522] [DEBUG] default - {
+  signature: '77afece267e9baa1451facd58c7f06ab',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_supplier',
+    query: { tenantId: 'szumale' },
+    dataContent: null,
+    id: 'YT7W818BLlr7ClDKAAGv'
+  }
+}
+[2021-01-14T15:15:42.527] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:42.527] [DEBUG] default - {
+  signature: '09e75355a74ff3a4670be059663d333c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_supplier',
+    query: { tenantId: 'szumale' },
+    dataContent: null,
+    id: 'v9DIEhZW41UhK-7NAAGw'
+  }
+}
+[2021-01-14T15:15:51.824] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:15:51.824] [DEBUG] default - {
+  signature: '28286d1c6782cc50068e9ab9052e0db7',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'M1i7ZP3wBulWE295AAGx' }
+}
+[2021-01-14T15:15:51.836] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:15:51.836] [DEBUG] default - {
+  signature: '61153b4fb6630ccb3c589a1048520eaf',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'M1i7ZP3wBulWE295AAGx'
+  }
+}
+[2021-01-14T15:16:05.880] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:16:05.880] [DEBUG] default - {
+  signature: '8f19f49fb75c4c61586e4151fe9b5c8b',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'MyWkK1s4CSBEwrw6AAGy' }
+}
+[2021-01-14T15:16:05.883] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:16:05.883] [DEBUG] default - {
+  signature: 'fcd0cae26ce57872e739147dde2221f7',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '8zPlG6eHzR1k2azcAAGz' }
+}
+[2021-01-14T15:16:05.890] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:16:05.890] [DEBUG] default - {
+  signature: '17533760c5e30091ce49823d578ce4b8',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'MyWkK1s4CSBEwrw6AAGy'
+  }
+}
+[2021-01-14T15:16:05.897] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:16:05.897] [DEBUG] default - {
+  signature: '654cde7e66f2f025e6d33d848554a392',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: '8zPlG6eHzR1k2azcAAGz'
+  }
+}
+[2021-01-14T15:25:08.506] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:25:08.507] [DEBUG] default - {
+  signature: '1ca00625424e7bb47d70dc85be60dd27',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '8bbnI-u0sMN62919AAG0' }
+}
+[2021-01-14T15:25:08.517] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:25:08.517] [DEBUG] default - {
+  signature: '88b0f6a9abf7d76c1dac6137ca953fe3',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: '8bbnI-u0sMN62919AAG0'
+  }
+}
+[2021-01-14T15:25:18.837] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:25:18.837] [DEBUG] default - {
+  signature: '785edc2abd0c58c34583853f430dd935',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'kQ_tPNAgCxcoQ0PgAAG1' }
+}
+[2021-01-14T15:25:18.839] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:25:18.840] [DEBUG] default - {
+  signature: '22896f349337e9215446851829af5d74',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'cBGBROuWzEvndit5AAG2' }
+}
+[2021-01-14T15:25:18.849] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:25:18.849] [DEBUG] default - {
+  signature: '982dbddb9932c0c014316f3ae177f305',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_user',
+    query: { tenantId: 'szumale' },
+    fields: {
+      status: 1,
+      userId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      orgName: 1,
+      manage_orgName: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'kQ_tPNAgCxcoQ0PgAAG1'
+  }
+}
+[2021-01-14T15:25:18.856] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:25:18.856] [DEBUG] default - {
+  signature: '4ea7eb73de195ba247b97aec0cca60cd',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'cBGBROuWzEvndit5AAG2'
+  }
+}
+[2021-01-14T15:25:19.156] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:25:19.156] [DEBUG] default - {
+  signature: '14d98ba2f1eb68a5b95dff0e17af3e40',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '9f5Qy6HNJnX1JAgUAAG3' }
+}
+[2021-01-14T15:25:19.162] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:25:19.162] [DEBUG] default - {
+  signature: 'dceae3aad004e35e5ce0b4b4bf7049b0',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: '9f5Qy6HNJnX1JAgUAAG3'
+  }
+}
+[2021-01-14T15:26:05.406] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:26:05.407] [DEBUG] default - {
+  signature: '53c8aba0a1307cbf162c0680c7aa1ee5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'R2wHdn7on-_cpUKhAAG4' }
+}
+[2021-01-14T15:26:05.412] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:26:05.412] [DEBUG] default - {
+  signature: '217e5236b4b21ad5541d544938eca2e8',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'insertMany',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: null,
+    dataContent: [ [Object] ],
+    id: 'R2wHdn7on-_cpUKhAAG4'
+  }
+}
+[2021-01-14T15:26:05.441] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:26:05.442] [DEBUG] default - {
+  signature: 'f78238866cc4f6d3890f248c7aebc979',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '7cnNPH5oLsAaxcmeAAG5' }
+}
+[2021-01-14T15:26:05.449] [DEBUG] default - db/executeProc/request
+[2021-01-14T15:26:05.449] [DEBUG] default - {
+  signature: '80c3588e62e1d6d257657adeeb4de4b6',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_org_updateUserPermission',
+    paramContent: { tenantId: 'szumale', orgId: 'J01400' },
+    id: '7cnNPH5oLsAaxcmeAAG5'
+  }
+}
+[2021-01-14T15:26:05.485] [ERROR] default - TypeError: Cannot read property '0' of undefined
+    at Object.execute (C:\software\node-server\api-iot\socket\server.db.socket.js:113:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Socket.<anonymous> (C:\software\node-server\api-iot\socket\server.db.socket.js:176:23)
+[2021-01-14T15:26:08.036] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:26:08.036] [DEBUG] default - {
+  signature: '88829a7e0dea63ba24928b823918fca9',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'XGeYjU5cAg7Z-4BgAAG6' }
+}
+[2021-01-14T15:26:08.049] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:26:08.049] [DEBUG] default - {
+  signature: 'c426741ceb7015a43875e89da193d86d',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'insertMany',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: null,
+    dataContent: [ [Object] ],
+    id: 'XGeYjU5cAg7Z-4BgAAG6'
+  }
+}
+[2021-01-14T15:26:08.059] [ERROR] default - Error: ER_DUP_ENTRY: Duplicate entry 'szumale-J01400' for key 'tenant_org.tenantId'
+    at Query.Sequence._packetToError (C:\software\node-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\software\node-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\software\node-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\software\node-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\software\node-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\software\node-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\software\node-server\node_modules\mysql\lib\Connection.js:198:25)
+    at C:\software\node-server\api-iot\db\db.mysql.js:55:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (C:\software\node-server\api-iot\db\db.mysql.js:52:12)
+    at Object.executeObjWithCon (C:\software\node-server\api-iot\db\db.mysql.js:180:12)
+    at Object.execute (C:\software\node-server\api-iot\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (C:\software\node-server\api-iot\socket\server.db.socket.js:176:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry 'szumale-J01400' for key 'tenant_org.tenantId'",
+  sqlState: '23000',
+  index: 0,
+  sql: "insert into tenant_org(orgId,orgName,parentId,tenantId,createPerson) values ('J01400', '建科院', '1', 'szumale', 'em_001')"
+}
+[2021-01-14T15:26:08.302] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:26:08.302] [DEBUG] default - {
+  signature: 'cf791dcd39676c5c2d27d23195265dbe',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'FGTbZiLgxyH6qRDSAAG7' }
+}
+[2021-01-14T15:26:08.311] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:26:08.311] [DEBUG] default - {
+  signature: '72ac8ace516729cbfbc452a902a54647',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'insertMany',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: null,
+    dataContent: [ [Object] ],
+    id: 'FGTbZiLgxyH6qRDSAAG7'
+  }
+}
+[2021-01-14T15:26:08.319] [ERROR] default - Error: ER_DUP_ENTRY: Duplicate entry 'szumale-J01400' for key 'tenant_org.tenantId'
+    at Query.Sequence._packetToError (C:\software\node-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\software\node-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\software\node-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\software\node-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\software\node-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\software\node-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\software\node-server\node_modules\mysql\lib\Connection.js:198:25)
+    at C:\software\node-server\api-iot\db\db.mysql.js:55:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (C:\software\node-server\api-iot\db\db.mysql.js:52:12)
+    at Object.executeObjWithCon (C:\software\node-server\api-iot\db\db.mysql.js:180:12)
+    at Object.execute (C:\software\node-server\api-iot\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (C:\software\node-server\api-iot\socket\server.db.socket.js:176:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry 'szumale-J01400' for key 'tenant_org.tenantId'",
+  sqlState: '23000',
+  index: 0,
+  sql: "insert into tenant_org(orgId,orgName,parentId,tenantId,createPerson) values ('J01400', '建科院', '1', 'szumale', 'em_001')"
+}
+[2021-01-14T15:26:15.738] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:26:15.738] [DEBUG] default - {
+  signature: '1e107d26a0f8064eef7ffbf843652988',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'yz6bhKbYHZDOy3Z_AAG8' }
+}
+[2021-01-14T15:26:15.746] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:26:15.746] [DEBUG] default - {
+  signature: '338db82397ab6b664a92e626c1e4a9e6',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'insertMany',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: null,
+    dataContent: [ [Object] ],
+    id: 'yz6bhKbYHZDOy3Z_AAG8'
+  }
+}
+[2021-01-14T15:26:15.754] [ERROR] default - Error: ER_DUP_ENTRY: Duplicate entry 'szumale-J01400' for key 'tenant_org.tenantId'
+    at Query.Sequence._packetToError (C:\software\node-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\software\node-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\software\node-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\software\node-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\software\node-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\software\node-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (C:\software\node-server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\software\node-server\node_modules\mysql\lib\Connection.js:198:25)
+    at C:\software\node-server\api-iot\db\db.mysql.js:55:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (C:\software\node-server\api-iot\db\db.mysql.js:52:12)
+    at Object.executeObjWithCon (C:\software\node-server\api-iot\db\db.mysql.js:180:12)
+    at Object.execute (C:\software\node-server\api-iot\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (C:\software\node-server\api-iot\socket\server.db.socket.js:176:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry 'szumale-J01400' for key 'tenant_org.tenantId'",
+  sqlState: '23000',
+  index: 0,
+  sql: "insert into tenant_org(orgId,orgName,parentId,tenantId,createPerson) values ('J01400', '建科院', '1', 'szumale', 'em_001')"
+}
+[2021-01-14T15:26:32.652] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:26:32.652] [DEBUG] default - {
+  signature: '943987c41035c9fbf500d2c54d900fb7',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'q705zSFzufdta8k6AAG9' }
+}
+[2021-01-14T15:26:32.662] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:26:32.662] [DEBUG] default - {
+  signature: 'a89a6973d3282aae3724d1520794a1b1',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'AJ4_-eya9xeFAOf0AAG-' }
+}
+[2021-01-14T15:26:32.664] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:26:32.665] [DEBUG] default - {
+  signature: '2ab7adc21ae26c0f8872bc8c4548d53d',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_device',
+    query: { tenantId: 'szumale' },
+    fields: {
+      status: 1,
+      deviceId: 1,
+      deviceName: 1,
+      placeName: 1,
+      deviceType: 1,
+      groupName: 1,
+      ownOrgName: 1,
+      model: 1,
+      version: 1,
+      remarks: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'q705zSFzufdta8k6AAG9'
+  }
+}
+[2021-01-14T15:26:32.677] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:26:32.677] [DEBUG] default - {
+  signature: '3730337461cbf1c82213a46dfeeb2060',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_device',
+    query: { tenantId: 'szumale' },
+    fields: {
+      status: 1,
+      deviceId: 1,
+      deviceName: 1,
+      placeName: 1,
+      deviceType: 1,
+      groupName: 1,
+      ownOrgName: 1,
+      model: 1,
+      version: 1,
+      remarks: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'AJ4_-eya9xeFAOf0AAG-'
+  }
+}
+[2021-01-14T15:28:11.631] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:28:11.631] [DEBUG] default - {
+  signature: '8d8030e2f6041763a8c96e1482eeb504',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'kOJlv8C-KfDM56BaAAG_' }
+}
+[2021-01-14T15:28:11.645] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:28:11.645] [DEBUG] default - {
+  signature: '75a6fbfda2f8719a6fa2ac77d3493fa7',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'kOJlv8C-KfDM56BaAAG_'
+  }
+}
+[2021-01-14T15:33:39.632] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.632] [DEBUG] default - {
+  signature: '301d405a890c86882eb8e482304719e1',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'N3B8b1spgUHyKiNeAAHA' }
+}
+[2021-01-14T15:33:39.635] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.636] [DEBUG] default - {
+  signature: 'd5fb364566d7000c4961b87af98e5f19',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'zHekgU_fOKbvuoIJAAHB' }
+}
+[2021-01-14T15:33:39.640] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.641] [DEBUG] default - {
+  signature: 'a44f0a4b188c46cdc7eee89577c95c07',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '4BMI2ya80XUp-cwRAAHC' }
+}
+[2021-01-14T15:33:39.648] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.648] [DEBUG] default - {
+  signature: '230a35e15fd4a26e43ac48c51160de15',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'szumale' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'N3B8b1spgUHyKiNeAAHA'
+  }
+}
+[2021-01-14T15:33:39.651] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.651] [DEBUG] default - {
+  signature: 'cce9550c64e77485f4c5d2ebaf025fa5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'zHekgU_fOKbvuoIJAAHB'
+  }
+}
+[2021-01-14T15:33:39.768] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.768] [DEBUG] default - {
+  signature: '7f6dfa303904b4514cbc6b5a2fbb2166',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'szumale' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: '4BMI2ya80XUp-cwRAAHC'
+  }
+}
+[2021-01-14T15:33:39.876] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.876] [DEBUG] default - {
+  signature: '076d6f9b7c07b8ba94043455ad1ab5dc',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '51MypsYG6EEmiukJAAHD' }
+}
+[2021-01-14T15:33:39.879] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.879] [DEBUG] default - {
+  signature: '75ce11454d9b539693649632ae70351c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'KIV3VfaR9QWooS9PAAHE' }
+}
+[2021-01-14T15:33:39.882] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.882] [DEBUG] default - {
+  signature: 'dafcf3e66402063307b39458c3b8fa89',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: '60v3d1OoVnx-ElYtAAHF' }
+}
+[2021-01-14T15:33:39.885] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.885] [DEBUG] default - {
+  signature: 'b2c1011cad0ed39c5fcd16694c9944c5',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: '51MypsYG6EEmiukJAAHD'
+  }
+}
+[2021-01-14T15:33:39.898] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.899] [DEBUG] default - {
+  signature: '2f1ab00519f4304b63f72940a35991c8',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'szumale' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'KIV3VfaR9QWooS9PAAHE'
+  }
+}
+[2021-01-14T15:33:39.900] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.900] [DEBUG] default - {
+  signature: 'f34a2c8dbb088c770755c2b00c9b58f8',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'szumale' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: '60v3d1OoVnx-ElYtAAHF'
+  }
+}
+[2021-01-14T15:33:39.939] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.939] [DEBUG] default - {
+  signature: '6ad20fbc23c99748fb621455b26b2381',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'l91sSnfWdSx6qTTBAAHG' }
+}
+[2021-01-14T15:33:39.966] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.966] [DEBUG] default - {
+  signature: '89af682d8dc41be8d2953ac4e9d704c3',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'l91sSnfWdSx6qTTBAAHG'
+  }
+}
+[2021-01-14T15:33:39.975] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.976] [DEBUG] default - {
+  signature: '9be1174fc1843151add43ce5ee84c09c',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'R9Smc7BWGiyO1w5XAAHH' }
+}
+[2021-01-14T15:33:39.982] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:39.982] [DEBUG] default - {
+  signature: '9d4f33ad14b5bd2fdd739b9c9975b496',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'q54JkLLMImS5jdOHAAHI' }
+}
+[2021-01-14T15:33:39.985] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.985] [DEBUG] default - {
+  signature: '225683490cf272ac8bb61f16d048c9ad',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'R9Smc7BWGiyO1w5XAAHH'
+  }
+}
+[2021-01-14T15:33:39.989] [DEBUG] default - db/executeObjWithCon/request
+[2021-01-14T15:33:39.990] [DEBUG] default - {
+  signature: 'c3df48aabc9f8b38472ca6c7d72275f4',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'szumale' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'q54JkLLMImS5jdOHAAHI'
+  }
+}
+[2021-01-14T15:33:40.038] [DEBUG] default - db/getConnection/request
+[2021-01-14T15:33:40.038] [DEBUG] default - {
+  signature: '0d0198439243b5e7bb93b5c31033d436',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: { id: 'G50Ge3wJKb1V0cb8AAHJ' }
+}
+[2021-01-14T15:33:40.050] [DEBUG] default - db/executeProc/request
+[2021-01-14T15:33:40.050] [DEBUG] default - {
+  signature: '573af9bdce054670fa896c5f06a15bbf',
+  access_token: '72680145b6625769c7ab6a715f53f05e',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_get',
+    paramContent: {
+      tenantId: 'szumale',
+      userId: 'admin',
+      query: {},
+      fields: [Object]
+    },
+    id: 'G50Ge3wJKb1V0cb8AAHJ'
+  }
+}

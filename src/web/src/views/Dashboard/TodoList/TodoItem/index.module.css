@@ -1,0 +1,17 @@
+.wrapper {
+	/* padding: 30px; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.num {
+	color: #333333;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.title {
+	color: #999999;
+	font-size: 16px;
+}

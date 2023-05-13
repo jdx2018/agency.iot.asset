@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 中性操作弹出按钮样式 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 正常状态 -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_btn_neutral_dialog_normal"/>
+            <corners
+                android:radius="@dimen/btn_dialog_corner"/>
+            <stroke
+                android:width="@dimen/btn_dialog_border"
+                android:color="@color/bd_btn_neutral_dialog"/>
+        </shape>
+    </item>
+
+    <!-- 按下状态 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_btn_neutral_dialog_pressed"/>
+            <corners
+                android:radius="@dimen/btn_dialog_corner"/>
+            <stroke
+                android:width="@dimen/btn_dialog_border"
+                android:color="@color/bd_btn_neutral_dialog"/>
+        </shape>
+    </item>
+</selector>

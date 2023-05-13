@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#808080</color>
+    <color name="light_grey1">#979797</color>
+    <color name="light_grey2">#CCCCCC</color>
+    <color name="light_grey3">#D3D3D3</color>
+    <color name="light_grey4">#DCDCDC</color>
+    <color name="light_grey5">#E1E1E1</color>
+    <color name="light_grey6">#E6E6E6</color>
+    <color name="light_grey7">#F0F0F0</color>
+    <color name="light_grey8">#F5F5F5</color>
+    <color name="light_grey9">#FAFAFA</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="light_blue1">#6699CC</color>
+    <color name="light_blue2">#90C0F2</color>
+    <color name="light_blue3">#99CCFF</color>
+    <color name="light_blue4">#CCCCFF</color>
+    <color name="sky_blue">#1E90FF</color>
+    <color name="light_sky_blue">#00BFFF</color>
+    <color name="lake_blue">#8470FF</color>
+    <color name="dark_blue">#00008B</color>
+    <color name="deep_blue">#191970</color>
+    <color name="orange_red">#FF4500</color>
+    <color name="orange">#FFA500</color>
+    <color name="natorange">#FFDEAD</color>
+    <color name="divider">#b4b4b4</color>
+
+    <!-- AppTheme -->
+    <!--<color name="colorPrimary">#558FD1</color>
+    <color name="colorPrimaryDark">#4472A8</color>
+    <color name="colorAccent">#fd5757</color>-->
+    <color name="colorControlNormal">#fd5757</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="text_grey">#505050</color>
+    <color name="text_grey1">#505050</color>
+    <color name="text_grey2">#969696</color>
+    <color name="edittext_border">#d7dce1</color>
+    <color name="list_background">#55505050</color>
+    <color name="bg_grid_press">#E1E1E1</color>
+    <color name="line">#B4B4B4</color>
+    <color name="alpha_blue">#b6bec9</color>
+    <color name="alpha_green">#5500cd66</color>
+    <color name="alpha_main">#552fd5b9</color>
+    <color name="alpha_yellow">#55f99503</color>
+    <color name="alpha_white">#ffffff</color>
+
+    <!-- 标准颜色 -->
+    <color name="black">#000000</color>                         <!-- 黑色 -->
+    <color name="red">#FF0000</color>                           <!-- 红色 -->
+    <color name="white">#FFFFFF</color>                         <!-- 白色 -->
+    <color name="green">#00FF00</color>                         <!-- 绿色 -->
+    <color name="blue">#0000FF</color>                          <!-- 蓝色 -->
+    <color name="transparent">#00000000</color>                 <!-- 透明 -->
+
+    <!-- 基本颜色 -->
+    <color name="common_blue">#558FD1</color>                   <!-- 弹窗列表数据、登录及主界面顶部背景，选中状态tab文字 -->
+    <color name="text_primary">#2A324B</color>                  <!-- 主要文本、蒙版颜色 -->
+    <color name="title_bar">#53759C</color>                     <!-- 功能界面标题栏颜色 -->
+    <color name="content_background">#EBF2FA</color>            <!-- 界面背景专属颜色 -->
+    <color name="form_label">#606A85</color>                    <!-- 表单标签专属色 -->
+    <color name="btn_positive">@color/common_blue</color>       <!-- 正向按钮->默认背景色 -->
+    <color name="btn_positive_small_bg">#E7F6FF</color>         <!-- 正向按钮-小按钮背景色 -->
+    <color name="btn_positive_dark">#2864A9</color>             <!-- 正向按钮->描边、背景色 -->
+    <color name="btn_negative">#F48B31</color>                  <!-- 反向按钮->默认背景色 -->
+    <color name="btn_negative_dark">#E56747</color>             <!-- 反向按钮->描边、背景色 -->
+    <color name="btn_neutral">@color/white</color>              <!-- 中性按钮->默认背景色 -->
+    <color name="btn_neutral_border">#BABEC3</color>            <!-- 中性按钮->描边色 -->
+    <color name="btn_neutral_pressed">#EDEFF2</color>           <!-- 中性按钮->按下时背景色 -->
+    <color name="btn_neutral_text">#9198A1</color>              <!-- 中性按钮->文本颜色 -->
+    <color name="edt_border">#9EACBB</color>                    <!-- 输入框描边色 -->
+    <color name="form_input_area">#E1E7ED</color>               <!-- 表单输入框区域容器背景色 -->
+    <color name="edt_hint_text">#818E9D</color>                 <!-- 提示文本颜色 -->
+    <color name="dialog_title">#6A7685</color>                  <!-- 弹出框标题 -->
+    <color name="setting_item_name_color">#818E9D</color>       <!-- 设置项名称 -->
+    <color name="bg_scrollbar">#761c2938</color>                <!-- 滚动条颜色 -->
+
+    <!-- 固定按钮（正向） -->
+    <color name="bg_btn_positive_fixed_normal">@color/btn_positive</color>
+    <color name="bg_btn_positive_fixed_pressed">@color/btn_positive_dark</color>
+    <color name="bd_btn_positive_fixed">@color/btn_positive_dark</color>
+    <color name="text_btn_positive_fixed">@color/white</color>
+
+    <!-- 通栏按钮（正向） -->
+    <color name="bg_btn_positive_banner_normal">@color/btn_positive</color>
+    <color name="bg_btn_positive_banner_pressed">@color/btn_positive_dark</color>
+    <color name="bd_btn_positive_banner">@color/btn_positive_dark</color>
+    <color name="text_btn_positive_banner">@color/white</color>
+
+    <!-- 非通栏按钮（正向） -->
+    <color name="bg_btn_positive_normal_normal">@color/btn_positive</color>
+    <color name="bg_btn_positive_normal_normal2">#6D6DBA</color>
+    <color name="bg_btn_positive_normal_normal3">#0079FE</color>
+    <color name="bg_btn_positive_normal_normal4">#1712CC</color>
+    <color name="bg_btn_positive_normal_pressed">@color/btn_positive_dark</color>
+    <color name="bd_btn_positive_normal">@color/btn_positive_dark</color>
+    <color name="text_btn_positive_normal">@color/white</color>
+
+    <!-- 非通栏按钮（反向） -->
+    <color name="bg_btn_negative_normal_normal">@color/btn_negative</color>
+    <color name="bg_btn_negative_normal_pressed">@color/btn_negative_dark</color>
+    <color name="bd_btn_negative_normal">@color/btn_negative_dark</color>
+    <color name="text_btn_negative_normal">@color/white</color>
+
+    <!-- Dialog按钮（正向） -->
+    <color name="bg_btn_positive_dialog_normal">@color/btn_positive</color>
+    <color name="bg_btn_positive_dialog_pressed">@color/btn_positive_dark</color>
+    <color name="bd_btn_positive_dialog">@color/btn_positive_dark</color>
+    <color name="text_btn_positive_dialog">@color/white</color>
+
+    <!-- Dialog按钮（中性） -->
+    <color name="bg_btn_neutral_dialog_normal">@color/btn_neutral</color>
+    <color name="bg_btn_neutral_dialog_pressed">@color/btn_neutral_pressed</color>
+    <color name="bd_btn_neutral_dialog">@color/btn_neutral_border</color>
+    <color name="text_btn_neutral_dialog">@color/btn_neutral_text</color>
+
+    <!-- Dialog按钮（反向） -->
+    <color name="bg_btn_negative_dialog_normal">@color/btn_negative</color>
+    <color name="bg_btn_negative_dialog_pressed">@color/btn_negative_dark</color>
+    <color name="bd_btn_negative_dialog">@color/btn_negative_dark</color>
+    <color name="text_btn_negative_dialog">@color/white</color>
+
+    <!-- 小按钮 -->
+    <color name="bg_btn_positive_small_normal">@color/btn_positive_small_bg</color>
+    <color name="bd_btn_positive_small">@color/title_bar</color>
+    <color name="text_btn_positive_small">@color/title_bar</color>
+
+    <!-- 全局输入框 -->
+    <color name="bg_edt_common">@color/white</color>
+    <color name="bg_edt_cursor_common">@color/common_blue</color>
+    <color name="bd_edt_common">@color/edt_border</color>
+    <color name="text_edt_common">@color/text_primary</color>
+    <color name="text_edt_hint_common">@color/edt_hint_text</color>
+
+    <!-- 全局内容区域(普通 + 卡片) -->
+    <color name="bd_content_common">@color/edt_border</color>
+    <color name="bg_content_common">@color/white</color>
+    <color name="bg_content_card">@color/white</color>
+
+    <!-- 标题栏 -->
+    <color name="bg_toolbar_sub_divide_line">#436080</color>       <!-- 子标题栏分割线 -->
+
+    <!-- 扫码界面 -->
+    <color name="text_scan_type_normal">@color/white</color>
+    <color name="text_scan_type_selected">#1FC2F7</color>
+    <color name="bd_scan_color">@color/white</color>
+    <color name="bd_scan_corner_color">@color/text_primary</color>
+    <color name="bg_scan_mask_color">#33FFFFFF</color>
+    <color name="bg_tips">#22000000</color>
+
+    <!-- 弹窗 -->
+    <color name="bg_dialog">@color/white</color>
+    <color name="bg_dialog_item_div">@color/btn_neutral_border</color>
+    <color name="text_dialog_title">@color/dialog_title</color>
+    <color name="text_dialog_item">@color/common_blue</color>
+
+    <!-- 菜单 -->
+    <color name="text_tab_normal">#898FA0</color>
+    <color name="text_tab_selected">@color/common_blue</color>
+    <color name="text_menu_item">@color/text_primary</color>
+    <color name="bg_tab_container">@color/white</color>
+    <color name="bg_menu_item_container">@color/white</color>
+    <color name="bg_menu_item_divide_line">#cbd6e3</color>
+</resources>

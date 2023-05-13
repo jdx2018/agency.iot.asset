@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 内容界面子标题栏样式 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 边框颜色 -->
+    <item>
+        <shape>
+            <solid android:color="@color/bg_toolbar_sub_divide_line" />
+        </shape>
+    </item>
+
+    <!-- 背景颜色 -->
+    <item android:top="@dimen/header_sub_divide_line_height">
+        <shape>
+            <solid android:color="@color/title_bar" />
+        </shape>
+    </item>
+
+    <!-- 背景颜色 -->
+    <item android:right="@dimen/header_sub_block_margin">
+        <shape>
+            <solid android:color="@color/title_bar" />
+        </shape>
+    </item>
+
+    <!-- 背景颜色 -->
+    <item android:left="@dimen/header_sub_block_margin">
+        <shape>
+            <solid android:color="@color/title_bar" />
+        </shape>
+    </item>
+</layer-list>

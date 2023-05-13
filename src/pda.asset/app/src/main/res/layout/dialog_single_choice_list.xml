@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 单选列表弹出框样式 -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framel_dialog_single_choice_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardv_dialog_list_container"
+        style="@style/ListDialog">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/framel_title_container"
+                style="@style/ListItemDialog"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/text_list_dialog_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/text_dialog_title"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dialog_list_item_divide"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/bg_dialog_item_div"/>
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list_dialog_single_choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/framel_title_container"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

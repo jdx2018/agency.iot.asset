@@ -1,0 +1,629 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textAllCaps">false</item>
+        <!--导航栏底色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏底色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--按钮选中或者点击获得焦点后的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--导航栏上的标题颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!--和 colorAccent相反，正常状态下按钮的颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!--Button按钮正常状态颜色-->
+        <item name="colorButtonNormal">@color/accent_material_light</item>
+        <!--EditText 输入框中字体的颜色-->
+        <item name="editTextColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--导航栏底色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏底色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--按钮选中或者点击获得焦点后的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--导航栏上的标题颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!--和 colorAccent相反，正常状态下按钮的颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!--Button按钮正常状态颜色-->
+        <item name="colorButtonNormal">@color/accent_material_light</item>
+        <!--EditText 输入框中字体的颜色-->
+        <item name="editTextColor">@android:color/white</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#313131</item>
+        <item name="colorPrimaryDark">#313131</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="myAnimationstyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <!-- 忙提示框-Style -->
+    <style name="busy_circling" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Button_yellow_deepen">
+        <item name="android:background">@color/orange_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="Button_green">
+        <item name="android:background">@color/green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <!-- 全局布局文件 -->
+    <style name="ContentView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/content_background</item>
+        <item name="android:layout_marginStart">@dimen/activity_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/activity_margin_end</item>
+        <item name="android:layout_marginTop">@dimen/activity_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/activity_margin_bottom</item>
+        <item name="android:paddingStart">@dimen/activity_padding_start</item>
+        <item name="android:paddingEnd">@dimen/activity_padding_end</item>
+        <item name="android:paddingTop">@dimen/activity_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_padding_bottom</item>
+    </style>
+
+    <!-- 全局普通内容区域 -->
+    <style name="ContentCommon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/content_common_divide</item>
+        <item name="android:background">@drawable/bg_content_common_layer</item>
+    </style>
+
+    <!-- 全局卡片内容区域 -->
+    <style name="ContentCard" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/content_card_margin_top</item>
+        <item name="android:layout_marginEnd">@dimen/content_card_margin_end</item>
+        <item name="android:layout_marginBottom">@dimen/content_card_margin_bottom</item>
+        <item name="android:layout_marginStart">@dimen/content_card_margin_start</item>
+        <item name="android:paddingTop">@dimen/content_card_padding_top</item>
+        <item name="android:paddingEnd">@dimen/content_card_padding_end</item>
+        <item name="android:paddingBottom">@dimen/content_card_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/content_card_padding_start</item>
+        <item name="android:background">@color/white</item>
+
+        <!-- 兼容CardView -->
+        <item name="contentPaddingTop">@dimen/content_card_padding_top</item>
+        <item name="contentPaddingLeft">@dimen/content_card_padding_start</item>
+        <item name="contentPaddingRight">@dimen/content_card_padding_end</item>
+        <item name="contentPaddingBottom">@dimen/content_card_padding_bottom</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <!-- 全局卡片内容区域 -->
+    <style name="ContentCard2" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/content_card_margin_top</item>
+        <item name="android:layout_marginEnd">@dimen/content_card_margin_spadding_general</item>
+        <item name="android:layout_marginBottom">@dimen/content_card_margin_bottom</item>
+        <item name="android:layout_marginStart">@dimen/content_card_margin_spadding_general</item>
+        <item name="android:paddingTop">@dimen/content_card_padding_top</item>
+        <item name="android:paddingEnd">@dimen/content_card_margin_spadding_general</item>
+        <item name="android:paddingBottom">@dimen/content_card_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/content_card_margin_spadding_general</item>
+        <item name="android:background">@color/white</item>
+
+        <!-- 兼容CardView -->
+        <item name="contentPaddingTop">@dimen/content_card_padding_top</item>
+        <item name="contentPaddingLeft">@dimen/content_card_padding_start</item>
+        <item name="contentPaddingRight">@dimen/content_card_padding_end</item>
+        <item name="contentPaddingBottom">@dimen/content_card_padding_bottom</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <!-- 全局标签 -->
+    <style name="Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/form_label</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+
+    <!-- 全局标签->小标签 -->
+    <style name="SmallLabel" parent="Label">
+        <item name="android:textSize">@dimen/font_xsmall</item>
+    </style>
+
+    <!-- 全局标签->子标题栏标签 -->
+    <style name="SubToolBarLabel" parent="Label">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 全局标签->数据标签 -->
+    <style name="DataLabel" parent="Label">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/form_item_label_data_spacing</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+
+    <!-- 全局标签->数据标签 -->
+    <style name="DataLabel2" parent="Label">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/form_item_label_data_spacing2</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+
+    <!-- 全局标签->数据标签->子标题栏数据 -->
+    <style name="SubToolBarDataLabel" parent="DataLabel">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+
+    <!-- 全局标签->数据标签->标题标签 -->
+    <style name="TitleDataLabel" parent="DataLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+    <!-- 全局标签->数据标签->重要数据 -->
+    <style name="ImportantDataLabel" parent="DataLabel">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+    <!-- 全局按钮 -->
+    <style name="Button">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 全局按钮->固定按钮 -->
+    <style name="FixedButton" parent="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_fixed_height</item>
+        <item name="android:textColor">@color/text_btn_positive_fixed</item>
+    </style>
+
+    <!-- 全局按钮->固定按钮->正向固定按钮 -->
+    <style name="PositiveFixedButton" parent="FixedButton">
+        <item name="android:background">@drawable/bg_btn_positive_fixed_selector</item>
+    </style>
+
+    <!-- 全局按钮->通栏按钮 -->
+    <style name="BannerButton" parent="Button">
+        <item name="android:layout_width">@dimen/btn_banner_width</item>
+        <item name="android:layout_height">@dimen/btn_banner_height</item>
+        <item name="android:textColor">@color/text_btn_positive_banner</item>
+    </style>
+
+    <!-- 全局按钮->通栏按钮->正向操作通栏按钮 -->
+    <style name="PositiveBannerButton" parent="BannerButton">
+        <item name="android:background">@drawable/bg_btn_positive_banner_selector</item>
+    </style>
+
+    <!-- 全局按钮->非通栏按钮 -->
+    <style name="NormalButton" parent="Button">
+        <item name="android:layout_width">@dimen/btn_normal_width</item>
+        <item name="android:layout_height">@dimen/btn_normal_height</item>
+    </style>
+
+    <!-- 全局按钮->非通栏按钮->正向操作非通栏按钮 -->
+    <style name="PositiveNormalButton" parent="NormalButton">
+        <item name="android:background">@drawable/bg_btn_positive_normal_selector</item>
+        <item name="android:textColor">@color/text_btn_positive_normal</item>
+    </style>
+
+    <!-- 全局按钮->非通栏按钮->正向操作非通栏按钮-Blue2-inven -->
+    <style name="PositiveNormalButton2" parent="NormalButton">
+        <item name="android:background">@drawable/bg_btn_positive_normal_selector2</item>
+        <item name="android:textColor">@color/text_btn_positive_normal</item>
+    </style>
+
+    <!-- 全局按钮->非通栏按钮->正向操作非通栏按钮-Blue3-purified -->
+    <style name="PositiveNormalButton3" parent="NormalButton">
+        <item name="android:background">@drawable/bg_btn_positive_normal_selector3</item>
+        <item name="android:textColor">@color/text_btn_positive_normal</item>
+    </style>
+
+    <!-- 全局按钮->非通栏按钮->正向操作非通栏按钮-Blue4-deep -->
+    <style name="PositiveNormalButton4" parent="NormalButton">
+        <item name="android:background">@drawable/bg_btn_positive_normal_selector4</item>
+        <item name="android:textColor">@color/text_btn_positive_normal</item>
+    </style>
+
+    <!-- 全局按钮->非通栏按钮->反向操作非通栏按钮 -->
+    <style name="NegativeNormalButton" parent="NormalButton">
+        <item name="android:background">@drawable/bg_btn_negative_normal_selector</item>
+        <item name="android:textColor">@color/text_btn_negative_normal</item>
+    </style>
+
+    <!-- 全局按钮->弹窗按钮 -->
+    <style name="DialogButton" parent="Button">
+        <item name="android:layout_width">@dimen/btn_dialog_width</item>
+        <item name="android:layout_height">@dimen/btn_dialog_height</item>
+    </style>
+
+    <!-- 全局按钮->弹窗按钮->正向操作弹窗按钮 -->
+    <style name="PositiveDialogButton" parent="DialogButton">
+        <item name="android:layout_width">@dimen/btn_dialog_width</item>
+        <item name="android:background">@drawable/bg_btn_positive_dialog_selector</item>
+        <item name="android:textColor">@color/text_btn_positive_dialog</item>
+    </style>
+
+    <!-- 全局按钮->弹窗按钮->中性操作弹窗按钮 -->
+    <style name="NeutralDialogButton" parent="DialogButton">
+        <item name="android:background">@drawable/bg_btn_neutral_dialog_selector</item>
+        <item name="android:textColor">@color/text_btn_neutral_dialog</item>
+    </style>
+
+    <!-- 全局按钮->弹窗按钮->反向操作弹窗按钮 -->
+    <style name="NegativeDialogButton" parent="DialogButton">
+        <item name="android:background">@drawable/bg_btn_negative_dialog_selector</item>
+        <item name="android:textColor">@color/text_btn_negative_dialog</item>
+    </style>
+
+    <!-- 全局按钮->图标按钮 -->
+    <style name="IconButton" parent="Button">
+        <item name="android:layout_width">@dimen/btn_icon_width</item>
+        <item name="android:layout_height">@dimen/btn_icon_height</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮 -->
+    <style name="LeftIconButton" parent="IconButton">
+        <item name="android:gravity">center_vertical|end</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->设置按钮-->
+    <style name="SettingLeftIconButton" parent="LeftIconButton">
+        <item name="android:drawableStart">@mipmap/ic_btn_gear</item>
+        <item name="android:text">@string/setting</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->返回按钮-->
+    <style name="BackLeftIconButton" parent="LeftIconButton">
+        <item name="android:layout_width">@dimen/btn_icon_back_width</item>
+        <item name="android:drawableStart">@mipmap/ic_btn_arrow_left</item>
+        <item name="android:text">@string/back</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->退出按钮-->
+    <style name="ExitLeftIconButton" parent="LeftIconButton">
+        <item name="android:drawableStart">@mipmap/ic_btn_quit</item>
+        <item name="android:text">@string/exit</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->明细按钮-->
+    <style name="DetailLeftIconButton" parent="LeftIconButton">
+        <item name="android:drawableStart">@mipmap/ic_btn_detail</item>
+        <item name="android:text">@string/detail</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->排序按钮-->
+    <style name="SortLeftIconButton" parent="LeftIconButton">
+        <item name="android:drawableStart">@mipmap/ic_btn_sort</item>
+        <item name="android:text">@string/sort</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->分播按钮-->
+    <style name="AllocatedLeftIconButton" parent="LeftIconButton">
+        <item name="android:drawableStart">@mipmap/ic_btn_allocation</item>
+        <item name="android:text">@string/sow</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->筛选按钮-->
+    <style name="FilterLeftIconButton" parent="LeftIconButton">
+        <item name="android:drawableStart">@mipmap/ic_btn_filter</item>
+        <item name="android:text">@string/filter</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->发货按钮-->
+    <style name="SendGoodsLeftIconButton" parent="LeftIconButton">
+        <item name="android:drawableStart">@mipmap/ic_btn_send_goods</item>
+        <item name="android:text">@string/send_goods</item>
+    </style>
+
+    <!-- 全局按钮->左图标按钮->完成按钮-->
+    <style name="FinishLeftIconButton" parent="LeftIconButton">
+        <item name="android:drawableStart">@mipmap/ic_btn_done</item>
+        <item name="android:text">@string/finish</item>
+    </style>
+
+    <!-- 全局按钮->小按钮 -->
+    <style name="SmallButton" parent="Button">
+        <item name="android:layout_width">@dimen/btn_small_width</item>
+        <item name="android:layout_height">@dimen/btn_small_height</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_btn_positive_small</item>
+        <item name="android:background">@drawable/bg_btn_positive_small_selector</item>
+    </style>
+
+    <style name="EditText_Black">
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:imeOptions">actionNone</item>
+    </style>
+
+    <style name="EditText_Grey">
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:textColor">@color/text_grey1</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColorHint">@color/text_grey2</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:imeOptions">actionNone</item>
+    </style>
+    <!-- 全局输入框 -->
+    <style name="EditText">
+        <item name="android:textColor">@color/text_edt_common</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColorHint">@color/text_edt_hint_common</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textCursorDrawable">@drawable/bg_edt_cursor_shape</item>
+    </style>
+
+    <!-- 全局输入框->描边输入框 -->
+    <style name="OutlineEditText" parent="EditText">
+        <item name="android:background">@drawable/bg_edt_outline_selector</item>
+    </style>
+
+    <!-- 全局输入框->描边输入框->通栏输入框 -->
+    <style name="BannerOutlineEditText" parent="OutlineEditText">
+        <item name="android:layout_width">@dimen/edt_banner_width</item>
+        <item name="android:layout_height">@dimen/edt_banner_height</item>
+        <item name="android:paddingStart">@dimen/edt_banner_padding_start</item>
+        <item name="android:paddingEnd">@dimen/edt_banner_padding_end</item>
+        <item name="android:drawablePadding">@dimen/edt_banner_drawable_padding</item>
+        <item name="android:maxLength">25</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+    <!-- 全局输入框->描边输入框->通栏输入框 -->
+    <style name="BannerOutlineEditTextNoHW" parent="OutlineEditText">
+        <item name="android:paddingStart">@dimen/edt_banner_padding_start</item>
+        <item name="android:paddingEnd">@dimen/edt_banner_padding_end</item>
+        <item name="android:drawablePadding">@dimen/edt_banner_drawable_padding</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+    <!-- 全局输入框->描边输入框->通栏输入框->扫描输入框。 -->
+    <style name="ScanBannerEditText" parent="BannerOutlineEditText">
+        <item name="android:paddingEnd">@dimen/edt_banner_scan_padding_end</item>
+        <item name="android:drawableEnd">@mipmap/ic_btn_scan_large</item>
+    </style>
+
+    <!-- 全局输入框->描边输入框->非通栏扫描输入框 -->
+    <style name="ScanNormalEditText" parent="OutlineEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edt_normal_height</item>
+        <item name="android:paddingStart">@dimen/edt_normal_padding_start</item>
+        <item name="android:paddingEnd">@dimen/edt_normal_padding_end</item>
+        <item name="android:drawablePadding">@dimen/edt_normal_drawable_padding</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:drawableEnd">@mipmap/ic_btn_scan_small</item>
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <!-- 全局输入框->描边输入框->半非通栏输入框 -->
+    <style name="ScanHalfNormalEditText" parent="ScanNormalEditText">
+        <item name="android:layout_width">148dp</item>
+    </style>
+
+    <!-- 全局输入框->简单输入框 -->
+    <style name="SimpleEditText" parent="EditText">
+        <item name="android:layout_width">@dimen/edt_simple_width</item>
+        <item name="android:layout_height">@dimen/edt_simple_height</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:paddingStart">@dimen/form_item_label_data_spacing</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_edt_simple_selector</item>
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorControlActivated">@android:color/holo_red_light</item>
+    </style>
+
+    <!-- 全局标题 -->
+    <style name="Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--showBackButton 不可用，注释之-->
+    <!--&lt;!&ndash; 全局标题栏 &ndash;&gt;
+    <style name="ToolBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/header_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/content_common_margin_start</item>
+        <item name="android:paddingEnd">@dimen/content_common_margin_end</item>
+        <item name="android:background">@color/common_blue</item>
+        <item name="showBackButton">true</item>
+        <item name="type">setting</item>
+    </style>
+
+    &lt;!&ndash; 全局标题栏->内容界面标题栏 &ndash;&gt;
+    <style name="ContentToolBar" parent="ToolBar">
+        <item name="type">content</item>
+        <item name="android:background">@color/title_bar</item>
+    </style>
+
+    &lt;!&ndash; 全局标题栏->内容界面标题栏->子标题栏 &ndash;&gt;
+    <style name="ContentSubToolBar" parent="ContentToolBar">
+        <item name="android:layout_height">@dimen/header_sub_height</item>
+        <item name="showBackButton">false</item>
+        <item name="android:background">@drawable/bg_subtoolbar_common_layer</item>
+    </style>-->
+
+    <!-- 全局控件容器 -->
+    <style name="ComponentContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/com_container_height</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 自定义Dialog样式 -->
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+    </style>
+
+    <!-- 自定义弹窗视图 -->
+    <style name="CustomDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/bg_dialog</item>
+    </style>
+
+    <style name="CustomDialog21" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item><!--除去title-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- Loading -->
+    <style name="LoadingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>  <!--是否浮在界面上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+
+    <!-- 自定义弹窗->列表弹窗 -->
+    <style name="ListDialog" parent="CustomDialog">
+        <item name="android:layout_marginStart">@dimen/dialog_list_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/dialog_list_margin_end</item>
+        <item name="android:layout_marginTop">@dimen/dialog_list_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/dialog_list_margin_bottom</item>
+    </style>
+
+    <!-- 自定义弹窗->简单弹窗 -->
+    <style name="SimpleDialog" parent="CustomDialog">
+        <item name="android:layout_width">@dimen/dialog_simple_width</item>
+        <item name="android:layout_marginStart">@dimen/dialog_simple_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/dialog_simple_margin_end</item>
+        <item name="android:layout_marginTop">@dimen/dialog_simple_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/dialog_simple_margin_bottom</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- 自定义弹窗->列表项 -->
+    <style name="ListItemDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dialog_list_item_height</item>
+    </style>
+
+    <!-- 表单项 -->
+    <style name="FormItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">@dimen/form_item_divide</item>
+    </style>
+
+    <style name="TextView_Grey">
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Text_grey_title">
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ListView_Header">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="cusdom_dialog_whitebg" parent="@style/cusdom_dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="cusdom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@mipmap/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="floateditcolor">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>

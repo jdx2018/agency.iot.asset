@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000" >
+    
+    <RelativeLayout android:id="@+id/cus_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@mipmap/img_btn_title_back" >
+        
+        <!-- 左侧区域 -->
+        <ImageButton
+            android:id="@+id/title_back_btn"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="8dp"
+            android:background="@mipmap/img_btn_title_left" />
+
+        <ImageView
+            android:id="@+id/iv_left_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/title_back_btn"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@color/transparent"/>
+        
+        <!-- 中间区域 -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_left_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_vertical"
+            android:textSize="22dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:text="Title" />
+
+        <!-- 中间区域 -->
+        <TextView
+            android:id="@+id/tv_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:text="sub-title" />
+
+        <!-- 中间右侧区域 -->
+        <TextView
+            android:id="@+id/tv_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_vertical"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:background="@color/bg_tips"
+            android:text="" />
+        
+        <!-- 右侧区域 -->
+         <ImageButton android:id="@+id/btn_right_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_centerVertical="true"
+             android:visibility="gone"
+            android:background="@mipmap/ic_btn_detail2" />
+
+        <!-- 右侧区域 -->
+        <ImageButton android:id="@+id/btn_right_gear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@mipmap/ic_btn_gear2" />
+
+        <ImageButton android:id="@+id/btn_right_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@mipmap/ic_btn_filter2" />
+
+        <ImageButton android:id="@+id/btn_right_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@mipmap/ic_user_grey" />
+    </RelativeLayout>
+
+</RelativeLayout>

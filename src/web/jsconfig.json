@@ -1,0 +1,17 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "api/*": ["./src/api/*"],
+      "config/*": ["./src/config/*"],
+      "services/*": ["./src/services/*"],
+      "utils/*": ["./src/utils/*"],
+      "views/*": ["./src/views/*"],
+      "routes/*": ["./src/routes/*"],
+      "components/*": ["./src/components/*"],
+      "hooks/*": ["./src/hooks/*"]
+    }
+  }
+}

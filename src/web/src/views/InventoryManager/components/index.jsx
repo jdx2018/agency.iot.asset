@@ -1,0 +1,1 @@
+export { default as InventoryManagerDetail } from "./InventoryManagerDetail";

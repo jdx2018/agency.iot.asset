@@ -1,0 +1,186 @@
+<resources>
+
+    <!-- 全局字体 -->
+    <dimen name="font_xsmall">10sp</dimen>      <!-- 超小号字体 -->
+    <dimen name="font_small">13sp</dimen>       <!-- 小号字体 -->
+    <dimen name="font_medium">16sp</dimen>      <!-- 中号字体 -->
+    <dimen name="font_large">18sp</dimen>       <!-- 大号字体 -->
+    <dimen name="font_xlarge">20sp</dimen>      <!-- 超大号字体 -->
+    <dimen name="font_xxlarge">22sp</dimen>     <!-- 超超大号字体 -->
+
+    <!-- 全局布局文件 -->
+    <dimen name="activity_margin">0dp</dimen>
+    <dimen name="activity_padding">0dp</dimen>
+    <dimen name="text_title">14sp</dimen>
+
+    <!-- 全局布局文件->外边距 -->
+    <dimen name="activity_margin_start">@dimen/activity_margin</dimen>
+    <dimen name="activity_margin_end">@dimen/activity_margin</dimen>
+    <dimen name="activity_margin_top">@dimen/activity_margin</dimen>
+    <dimen name="activity_margin_bottom">@dimen/activity_margin</dimen>
+
+    <!-- 全局布局文件->内填充 -->
+    <dimen name="activity_padding_start">@dimen/activity_padding</dimen>
+    <dimen name="activity_padding_end">@dimen/activity_padding</dimen>
+    <dimen name="activity_padding_top">@dimen/activity_padding</dimen>
+    <dimen name="activity_padding_bottom">@dimen/activity_padding</dimen>
+
+    <!-- 全局标题栏 -->
+    <dimen name="header_height">40dp</dimen>
+    <dimen name="header_divide_width">0.6dp</dimen>
+    <dimen name="header_divide_margin_start">4dp</dimen>
+    <dimen name="header_divide_margin_end">4dp</dimen>
+    <dimen name="header_divide_margin_top">4dp</dimen>
+    <dimen name="header_divide_margin_bottom">4dp</dimen>
+
+    <!-- 全局子标题栏 -->
+    <dimen name="header_sub_height">34dp</dimen>
+    <dimen name="header_sub_double_height">68dp</dimen>
+    <dimen name="header_sub_three_height">102dp</dimen>
+    <dimen name="header_sub_divide_line_height">1dp</dimen>
+    <dimen name="header_sub_block_margin">310dp</dimen>
+
+    <!-- 全局内容区块 -->
+    <dimen name="content_card_margin">3dp</dimen>
+    <dimen name="content_card_padding">5dp</dimen>
+    <dimen name="content_common_margin">10dp</dimen>
+    <dimen name="content_divide">5dp</dimen>
+
+    <!-- 全局内容区块->普通样式（包含：标题栏、tab选项卡、按钮、输入框等） -->
+    <dimen name="content_common_margin_start">@dimen/content_common_margin</dimen>    <!-- 左外边距 -->
+    <dimen name="content_common_margin_end">@dimen/content_common_margin</dimen>      <!-- 右外边距 -->
+    <dimen name="content_common_margin_top">0dp</dimen>                               <!-- 上外边距 -->
+    <dimen name="content_common_margin_bottom">0dp</dimen>                            <!-- 下外边距 -->
+    <dimen name="content_common_divide">@dimen/content_divide</dimen>                 <!-- 板块间距 -->
+
+    <!-- 全局内容区块->卡片样式（主要用于展示多条数据以及登录、主界面卡片等） -->
+    <dimen name="content_card_margin_spadding_general">2dp</dimen>                                 <!-- general -->
+    <dimen name="content_card_margin_start">@dimen/content_card_margin</dimen>        <!-- 左外边距 -->
+    <dimen name="content_card_margin_end">@dimen/content_card_margin</dimen>          <!-- 右外边距 -->
+    <dimen name="content_card_margin_top">0dp</dimen>                                 <!-- 上外边距 -->
+    <dimen name="content_card_margin_bottom">0dp</dimen>                              <!-- 下外边距 -->
+    <dimen name="content_card_padding_start">@dimen/content_card_padding</dimen>      <!-- 左填充 -->
+    <dimen name="content_card_padding_end">@dimen/content_card_padding</dimen>        <!-- 右填充 -->
+    <dimen name="content_card_padding_top">@dimen/content_card_padding</dimen>        <!-- 右填充 -->
+    <dimen name="content_card_padding_bottom">@dimen/content_card_padding</dimen>     <!-- 右填充 -->
+    <dimen name="content_card_divide">@dimen/content_divide</dimen>                   <!-- 板块间距 -->
+
+    <!-- 全局控件 -->
+    <dimen name="com_height">37dp</dimen>                              <!-- 高度 -->
+    <dimen name="com_banner_width">297dp</dimen>                       <!-- 横栏宽度 -->
+    <dimen name="com_border">0.6dp</dimen>                             <!-- 边框 -->
+    <dimen name="com_corner_small">2.6dp</dimen>                       <!-- 小圆角 -->
+    <dimen name="com_corner_large">5.3dp</dimen>                       <!-- 大圆角 -->
+    <dimen name="com_divide">5dp</dimen>                               <!-- 控件间隔 -->
+    <dimen name="com_container_height">54dp</dimen>                    <!-- 空间容器高度 -->
+
+    <!-- 全局空间->固定按钮 -->
+    <dimen name="btn_fixed_height">54dp</dimen>                        <!-- 高度 -->
+    <dimen name="btn_fixed_corner">0dp</dimen>                         <!-- 圆角 -->
+    <dimen name="btn_fixed_border">0dp</dimen>                         <!-- 边框 -->
+
+    <!-- 全局控件->通栏按钮 -->
+    <dimen name="btn_banner_height">@dimen/com_height</dimen>          <!-- 高度 -->
+    <dimen name="btn_banner_width">@dimen/com_banner_width</dimen>     <!-- 宽度 -->
+    <dimen name="btn_banner_corner">@dimen/com_corner_small</dimen>    <!-- 圆角 -->
+    <dimen name="btn_banner_border">@dimen/com_border</dimen>          <!-- 边框 -->
+
+    <!-- 全局控件->非通栏按钮 -->
+    <dimen name="btn_normal_height">@dimen/com_height</dimen>          <!-- 高度 -->
+    <dimen name="btn_normal_width">90dp</dimen>                        <!-- 宽度 -->
+    <dimen name="btn_normal_corner">@dimen/com_corner_small</dimen>    <!-- 圆角 -->
+    <dimen name="btn_normal_border">@dimen/com_border</dimen>          <!-- 边框 -->
+
+    <!-- 全局控件->弹窗按钮 -->
+    <dimen name="btn_dialog_height">@dimen/com_height</dimen>          <!-- 高度 -->
+    <dimen name="btn_dialog_width">106dp</dimen>                       <!-- 宽度 -->
+    <dimen name="btn_dialog_wide_width">144dp</dimen>                  <!-- 宽度 -->
+    <dimen name="btn_dialog_corner">@dimen/com_corner_large</dimen>    <!-- 圆角 -->
+    <dimen name="btn_dialog_wide_corner">@dimen/com_corner_small</dimen><!-- 更新按钮圆角 -->
+    <dimen name="btn_dialog_border">@dimen/com_border</dimen>          <!-- 边框 -->
+
+
+    <!-- 全局控件->图标按钮 -->
+    <dimen name="btn_icon_height">25dp</dimen>
+    <dimen name="btn_icon_width">52dp</dimen>
+    <dimen name="btn_icon_back_width">44dp</dimen>
+
+    <!-- 全局控件->小按钮 -->
+    <dimen name="btn_small_width">46dp</dimen>
+    <dimen name="btn_small_height">25dp</dimen>
+    <dimen name="btn_small_corner">@dimen/com_corner_small</dimen>
+    <dimen name="btn_small_border">@dimen/com_border</dimen>
+
+    <!-- 全局控件->输入框 -->
+    <dimen name="edt_common_border">@dimen/com_border</dimen>
+    <dimen name="edt_common_cursor_width">1dp</dimen>
+    <dimen name="edt_common_corner_width">@dimen/com_corner_small</dimen>
+
+    <!-- 全局控件->输入框->通栏输入框 -->
+    <dimen name="edt_banner_width">@dimen/com_banner_width</dimen>
+    <dimen name="edt_banner_height">@dimen/com_height</dimen>
+    <dimen name="edt_banner_padding_start">8dp</dimen>
+    <dimen name="edt_banner_padding_end">8dp</dimen>
+    <dimen name="edt_banner_scan_padding_end">4dp</dimen>
+    <dimen name="edt_banner_drawable_padding">8dp</dimen>
+
+    <!-- 全局控件->输入框->非通栏输入框 -->
+    <dimen name="edt_normal_height">31dp</dimen>
+    <dimen name="edt_normal_padding_start">5dp</dimen>
+    <dimen name="edt_normal_padding_end">5dp</dimen>
+    <dimen name="edt_normal_scan_padding_end">3dp</dimen>
+    <dimen name="edt_normal_drawable_padding">5dp</dimen>
+
+    <!-- 全局控件->输入框->简单输入框 -->
+    <dimen name="edt_simple_height">26dp</dimen>
+    <dimen name="edt_simple_width">58dp</dimen>
+    <dimen name="edt_simple_corner">@dimen/com_corner_small</dimen>
+    <dimen name="edt_simple_padding_start">3dp</dimen>
+
+    <!-- 表单 -->
+    <dimen name="form_item_divide">2dp</dimen>                     <!-- 表单项间距 10dp-->
+    <dimen name="form_item_label_data_spacing">10dp</dimen>         <!-- 表单项标签数据间隔 -->
+    <dimen name="form_item_label_data_spacing2">2dp</dimen>         <!-- 表单项标签数据间隔 -->
+    <dimen name="form_item_input_area_padding">6dp</dimen>          <!-- 表单项输入区域内填充 -->
+    <dimen name="form_item_input_area_edt_num_spacing">26dp</dimen> <!-- 表单项输入区域数字输入框间隔 -->
+    <dimen name="form_item_input_area_edt_date_spacing">26dp</dimen><!-- 表单项输入区域日期输入框间隔 -->
+    <dimen name="form_item_input_area_divide">2dp</dimen>           <!-- 表单项输入区域间隔 -->
+
+    <!-- 弹窗 -->
+    <dimen name="dialog_list_margin">10dp</dimen>
+    <dimen name="dialog_list_margin_start">@dimen/dialog_list_margin</dimen>
+    <dimen name="dialog_list_margin_end">@dimen/dialog_list_margin</dimen>
+    <dimen name="dialog_list_margin_top">67dp</dimen>
+    <dimen name="dialog_list_margin_bottom">66dp</dimen>
+    <dimen name="dialog_list_item_height">53dp</dimen>
+    <dimen name="dialog_list_item_checked_context_spacing">10dp</dimen>
+    <dimen name="dialog_list_item_divide">0.6dp</dimen>
+    <dimen name="dialog_simple_width">260dp</dimen>
+    <dimen name="dialog_simple_margin_start">26dp</dimen>
+    <dimen name="dialog_simple_margin_end">26dp</dimen>
+    <dimen name="dialog_simple_margin_top">0dp</dimen>
+    <dimen name="dialog_simple_margin_bottom">0dp</dimen>
+    <dimen name="dialog_simple_content_line_spacing">16dp</dimen>
+    <dimen name="dialog_simple_content_padding_start">20dp</dimen>
+    <dimen name="dialog_simple_content_padding_end">20dp</dimen>
+    <dimen name="dialog_simple_content_padding_top">36dp</dimen>
+    <dimen name="dialog_simple_content_padding_bottom">21dp</dimen>
+    <dimen name="dialog_simple_btnbar_padding_start">13dp</dimen>
+    <dimen name="dialog_simple_btnbar_padding_end">13dp</dimen>
+    <dimen name="dialog_simple_btnbar_padding_top">8dp</dimen>
+    <dimen name="dialog_simple_btnbar_padding_bottom">21dp</dimen>
+    <dimen name="dialog_simple_btn_margin_horizontal">6dp</dimen>
+
+    <!-- CaptureActivity -->
+    <dimen name="capture_button_area_height">80dp</dimen>                <!-- 按钮区域高度 -->
+    <dimen name="capture_button_area_margin_bottom">50dp</dimen>         <!-- 按钮区域底部外边距 -->
+    <dimen name="capture_button_area_btn_text">@dimen/font_large</dimen> <!-- 按钮文本大小 -->
+    <dimen name="capture_tips_text">@dimen/font_medium</dimen>           <!-- 提示文字大小 -->
+    <dimen name="capture_border_size">1dp</dimen>                        <!-- 普通边框大小 -->
+    <dimen name="capture_corner_length">20dp</dimen>                     <!-- 扫描框边角线长度 -->
+    <dimen name="capture_corner_size">3dp</dimen>                        <!-- 扫描框边角线宽度 -->
+    <dimen name="capture_rect_width">200dp</dimen>                       <!-- 扫描框宽度 -->
+    <dimen name="capture_rect_barcode_height">120dp</dimen>              <!-- 条码扫描框高度 -->
+    <dimen name="capture_rect_top_offset">90dp</dimen>                   <!-- 扫描框距离顶部高度 -->
+
+</resources>

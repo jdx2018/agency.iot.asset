@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 表单输入区域默认背景颜色 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/white" />
+
+    <padding
+        android:bottom="@dimen/form_item_input_area_padding"
+        android:left="@dimen/form_item_input_area_padding"
+        android:right="@dimen/form_item_input_area_padding"
+        android:top="@dimen/form_item_input_area_padding" />
+
+    <corners android:radius="@dimen/com_corner_small" />
+</shape>
