@@ -1,14 +1,10 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import {
-  useLocation,
-  useHistory
-} from "react-router-dom";
+import { useLocation, useHistory } from "react-router-dom";
 import { withStyles } from "@material-ui/core/styles";
 import { TextField, Button, Grid, CircularProgress } from "@material-ui/core";
 import { setUserinfo, setPageData } from "utils/auth";
 import Authentication from "@/Authentication";
-
 
 const styles = {
   labelRoot: {
@@ -17,18 +13,20 @@ const styles = {
 };
 
 function AccountSignin(props) {
-  const history = useHistory()
+  const history = useHistory();
   let location = useLocation();
 
   let { from } = location.state || { from: { pathname: "/" } };
 
-  const { classes, classes__, loginSuccess } = props;
+  const { classes, classes__, loginSuccess, checkLicense } = props;
   const { register, handleSubmit, errors } = useForm();
   const [loading, setLoading] = useState(false);
 
   const handleSignin = async (data) => {
     setLoading(true);
     try {
+      let isRegister = await checkLicense(() => setLoading(false), false);
+      if (!isRegister) return;
       await Authentication.authenticate((data) => {
         if (!data.page || data.page.length === 0) {
           global.$showMessage({
@@ -37,17 +35,17 @@ function AccountSignin(props) {
             autoHideDuration: 5000,
           });
           setLoading(false);
-          return
+          return;
         }
         setPageData(data.page);
         setUserinfo(data.userinfo);
-        loginSuccess()
+        loginSuccess();
         global.$showMessage({
           message: "登录成功",
           type: "success",
         });
         setLoading(false);
-        history.push(from.pathname)
+        history.push(from.pathname);
       }, data);
       setLoading(false);
     } catch (err) {
@@ -141,6 +139,17 @@ function AccountSignin(props) {
         </Button>
         {loading && <CircularProgress size={24} className={classes__.Button_progress} />}
       </div>
+      <a
+        style={{
+          float: "right",
+        }}
+        src="#"
+        onClick={async () => {
+          await checkLicense(() => {}, true);
+        }}
+      >
+        注册激活
+      </a>
       <Grid className={classes__.otherAction} container>
         <Grid item xs>
           {/* <Link

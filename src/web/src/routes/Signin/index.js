@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Typography, Tabs, Tab, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import bg from './bg.jpeg'
-
+import bg from "./bg.jpeg";
+import { message } from "antd";
 import {
   AccountSignin,
   // , CellphoneSignin
@@ -57,8 +57,8 @@ const useStyles = makeStyles((theme) => {
       backgroundImage: `url(${bg})`,
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
-      backgroundPosition: 'center',
-      maxWidth: 2160
+      backgroundPosition: "center",
+      maxWidth: 2160,
     },
     signinForm: {
       width: 410,
@@ -109,6 +109,106 @@ function TabPanel(props) {
   );
 }
 
+async function checkLicense(cb = () => {}, isHint) {
+  const baseUrl = "http://47.94.5.22:9776";
+  const checkAuthorization = async () => {
+    return new Promise((resolve, reject) => {
+      fetch(baseUrl + "/api/license/checkMachine", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((res) => {
+          return res.json();
+        })
+        .then((res) => {
+          resolve(res);
+        })
+        .catch((err) => {
+          reject(err);
+        });
+    });
+  };
+  const getRegistrationCode = async () => {
+    return new Promise((resolve, reject) => {
+      fetch(baseUrl + "/api/license/registerID", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((res) => {
+          return res.json();
+        })
+        .then((res) => {
+          resolve(res);
+        })
+        .catch((err) => {
+          reject(err);
+        });
+    });
+  };
+  const startRegist = async ({ registerID, authorizationCode }) => {
+    return new Promise((resolve, reject) => {
+      fetch(baseUrl + "/api/license/licenseFile", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          registerID,
+          license: authorizationCode,
+        }),
+      })
+        .then((res) => {
+          return res.json();
+        })
+        .then((res) => {
+          resolve(res);
+        })
+        .catch((err) => {
+          reject(err);
+        });
+    });
+  };
+  let registerID = null;
+  const res = await checkAuthorization();
+  if (res.code !== 1) {
+    const res = await getRegistrationCode();
+    if (res.code === 1) {
+      registerID = res.data.regCode;
+    } else {
+      message.error("未检测到授权服务，请检查授权服务是否启动！");
+    }
+    const authorizationCode = prompt(`检测到软件未激活，本机注册码为 ${registerID} ，请输入授权码激活使用！`);
+    console.log(authorizationCode);
+    if (authorizationCode) {
+      const res = await startRegist({ registerID, authorizationCode });
+      if (res.code === 1) {
+        message.success("软件激活成功！");
+        cb();
+        return true;
+      } else {
+        message.error("授权码无效！");
+        cb();
+        return false;
+        // await checkLicense();
+      }
+    } else {
+      message.error("授权码不能为空！请激活使用！");
+      cb();
+      return false;
+      // await checkLicense();
+    }
+  } else {
+    if (isHint) {
+      alert("软件已激活，无需重复激活");
+    }
+    return true;
+  }
+}
+
 function SignIn(props) {
   const classes = useStyles();
   const [tabIdx, setTabIdx] = useState(0);
@@ -123,6 +223,12 @@ function SignIn(props) {
 
   useEffect(() => {
     window.sessionStorage.clear();
+  }, []);
+
+  useEffect(() => {
+    (async () => {
+      await checkLicense(() => {}, false);
+    })();
   }, []);
 
   return (
@@ -163,7 +269,12 @@ function SignIn(props) {
               /> */}
             </Tabs>
             <TabPanel value={tabIdx} index={0}>
-              <AccountSignin {...props} onSigninTypeChange={handleCheckoutSigninType} classes__={classes} />
+              <AccountSignin
+                checkLicense={checkLicense}
+                {...props}
+                onSigninTypeChange={handleCheckoutSigninType}
+                classes__={classes}
+              />
             </TabPanel>
             {/* <TabPanel value={tabIdx} index={1}>
               <CellphoneSignin
